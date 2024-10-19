@@ -13,33 +13,21 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.mobdeve.s19.devera.jonathan.testformco2.ui.theme.TestForMCO2Theme
 
-class MainActivity : ComponentActivity() {
+class LoginActivity: ComponentActivity() {
+    //get login button
+    private lateinit var loginBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
+        loginBtn = findViewById(R.id.loginBtn)
 
-        val intent = Intent(applicationContext, LoginActivity::class.java)
-        this.startActivity(intent)
-
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TestForMCO2Theme {
-        Greeting("Android")
+        //set on click listener for login button
+        loginBtn.setOnClickListener {
+            //start main activity
+            finish()
+        }
     }
 }
