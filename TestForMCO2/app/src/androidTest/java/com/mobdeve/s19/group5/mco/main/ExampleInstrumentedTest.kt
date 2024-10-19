@@ -1,4 +1,4 @@
-package com.mobdeve.s19.devera.jonathan.testformco2
+package com.mobdeve.s19.group5.mco.main
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

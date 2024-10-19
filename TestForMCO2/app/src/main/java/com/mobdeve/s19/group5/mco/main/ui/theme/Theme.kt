@@ -1,6 +1,5 @@
-package com.mobdeve.s19.devera.jonathan.testformco2.ui.theme
+package com.mobdeve.s19.group5.mco.main.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

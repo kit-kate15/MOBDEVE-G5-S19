@@ -1,4 +1,4 @@
-package com.mobdeve.s19.devera.jonathan.testformco2.ui.theme
+package com.mobdeve.s19.group5.mco.main.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

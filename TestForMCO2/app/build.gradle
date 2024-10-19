@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.mobdeve.s19.devera.jonathan.testformco2'
+    namespace 'com.mobdeve.s19.group5.mco.main'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.mobdeve.s19.devera.jonathan.testformco2"
+        applicationId "com.mobdeve.s19.group5.mco.main"
         minSdk 24
         targetSdk 34
         versionCode 1
