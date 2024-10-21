@@ -70,8 +70,8 @@ id tvTimeLeft
 id welcomeTv
 layout activity_login
 layout activity_main
+layout activity_pomodoro
 layout item_tasks_layout
-layout pomodoro
 layout pomodoro_start
 mipmap ic_launcher
 mipmap ic_launcher_round

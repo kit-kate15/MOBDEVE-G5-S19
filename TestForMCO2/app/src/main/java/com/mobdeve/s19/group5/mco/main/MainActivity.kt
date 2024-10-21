@@ -22,8 +22,8 @@ class MainActivity : ComponentActivity() {
 
         val pomodoroButton = findViewById<ImageButton>(R.id.pomodoroBtn)
         pomodoroButton.setOnClickListener {
-            val intent = Intent(this, PomodoroActivity::class.java)
-            startActivity(intent)
+            val pomIntent = Intent(applicationContext, PomodoroActivity::class.java)
+            startActivity(pomIntent)
         }
     }
 }

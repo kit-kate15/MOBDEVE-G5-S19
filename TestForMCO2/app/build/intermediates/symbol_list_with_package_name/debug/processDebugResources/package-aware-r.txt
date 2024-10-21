@@ -1363,6 +1363,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_pomodoro
 layout custom_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -1373,7 +1374,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout pomodoro
 layout pomodoro_start
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

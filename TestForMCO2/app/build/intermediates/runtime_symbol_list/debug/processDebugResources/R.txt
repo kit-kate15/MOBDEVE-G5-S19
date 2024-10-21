@@ -1362,6 +1362,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_login 0x7f0b001c
 int layout activity_main 0x7f0b001d
+int layout activity_pomodoro 0x7f0b002e
 int layout custom_dialog 0x7f0b001e
 int layout ime_base_split_test_activity 0x7f0b001f
 int layout ime_secondary_split_test_activity 0x7f0b0020
@@ -1372,7 +1373,6 @@ int layout notification_template_custom_big 0x7f0b0024
 int layout notification_template_icon_group 0x7f0b0025
 int layout notification_template_part_chronometer 0x7f0b0026
 int layout notification_template_part_time 0x7f0b0027
-int layout pomodoro 0x7f0b0028
 int layout pomodoro_start 0x7f0b0029
 int layout select_dialog_item_material 0x7f0b002a
 int layout select_dialog_multichoice_material 0x7f0b002b
