@@ -2,6 +2,7 @@ package com.mobdeve.s19.group5.mco.main
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.activity.ComponentActivity
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -19,6 +20,11 @@ class MainActivity : ComponentActivity() {
         val intent = Intent(applicationContext, LoginActivity::class.java)
         this.startActivity(intent)
 
+        val pomodoroButton = findViewById<ImageButton>(R.id.pomodoroBtn)
+        pomodoroButton.setOnClickListener {
+            val intent = Intent(this, PomodoroActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 
