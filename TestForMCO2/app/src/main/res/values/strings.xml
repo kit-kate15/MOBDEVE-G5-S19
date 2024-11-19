@@ -10,4 +10,9 @@
     <string name="email_placeholder">Email</string>
     <string name="password_placeholder">Password</string>
     <string name="login_button">Login</string>
+    <string name="add_tasks">Add Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="enter_date">Deadline</string>
+    <string name="text_description">Write down your descripiton here...</string>
+    <string name="submit">Submit</string>
 </resources>

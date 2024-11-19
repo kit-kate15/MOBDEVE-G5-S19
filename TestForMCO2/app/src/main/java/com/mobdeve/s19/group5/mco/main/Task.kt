@@ -36,33 +36,4 @@ class Task {
         this.id = id
     }
 
-    fun getTaskName(): String {
-        return this.taskName
-    }
-
-    fun getUser(): String {
-        return this.user
-    }
-
-    fun getTaskDescription(): String {
-        return this.taskDescription
-    }
-
-    fun getTaskStatus(): String {
-        return this.taskStatus
-    }
-
-    fun getTaskCreatedAt(): CustomDate {
-        return this.taskCreatedAt
-    }
-
-    fun getDeadlineDate(): CustomDate {
-        return this.deadlineDate
-    }
-
-    fun getId(): Long {
-        return this.id
-    }
-
-
 }

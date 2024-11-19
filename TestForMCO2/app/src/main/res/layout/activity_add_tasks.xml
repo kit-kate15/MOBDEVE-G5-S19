@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/headerLl"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/headerTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_tasks"
+            android:textSize="36sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <Space
+            android:id="@+id/headerSpace"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_gravity="end|center"
+            android:background="@null"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/taskTitleEv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/task_title"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/deadlineDateEv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_date"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/textDescriptionEv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:hint="@string/text_description"/>
+
+
+</LinearLayout>
