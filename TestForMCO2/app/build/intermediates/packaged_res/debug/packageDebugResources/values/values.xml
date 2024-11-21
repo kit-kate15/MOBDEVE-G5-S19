@@ -15,6 +15,8 @@
     <string name="app_name">TestForMCO2</string>
     <string name="button_card_text">Go To notes</string>
     <string name="card_text">Looks like there\'s a few things that you need to finish</string>
+    <string name="deadlineHeader">Deadline:</string>
+    <string name="description">Description:</string>
     <string name="email_placeholder">Email</string>
     <string name="enter_date">Deadline</string>
     <string name="hello_john_doe">Hello John Doe!</string>
@@ -25,7 +27,14 @@
     <string name="submit">Submit</string>
     <string name="task_title">Task Title</string>
     <string name="tasks">Tasks</string>
+    <string name="template">TextView</string>
     <string name="text_description">Write down your descripiton here...</string>
     <string name="welcome_back">Dashboard</string>
+    <style name="PopupTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
     <style name="Theme.TestForMCO2" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

@@ -30,6 +30,7 @@ drawable ic_settings
 drawable pause1
 drawable red_progressbar_background
 drawable tasks_shape
+drawable view_task_bg
 id TasksLl
 id TitleTv
 id addTasksBtn
@@ -39,7 +40,11 @@ id cardTextTv
 id cardTitleTv
 id checkIb
 id dashboardLl
+id dateTextTv
 id deadlineDateEv
+id deadlineTv
+id descriptionHeaderTv
+id descriptionTextTv
 id emailTv
 id flashCardBtn
 id fltimer
@@ -67,6 +72,7 @@ id pomodoroBtn
 id settingsBtn
 id slideLl
 id submitBtn
+id taskHeaderTv
 id taskTitleEv
 id tasksRv
 id tasksTextTl
@@ -78,6 +84,7 @@ layout activity_add_tasks
 layout activity_login
 layout activity_main
 layout activity_pomodoro
+layout activity_view_tasks
 layout item_tasks_layout
 layout pomodoro_start
 mipmap ic_launcher
@@ -86,6 +93,8 @@ string add_tasks
 string app_name
 string button_card_text
 string card_text
+string deadlineHeader
+string description
 string email_placeholder
 string enter_date
 string hello_john_doe
@@ -96,8 +105,10 @@ string password_placeholder
 string submit
 string task_title
 string tasks
+string template
 string text_description
 string welcome_back
+style PopupTheme
 style Theme.TestForMCO2
 xml backup_rules
 xml data_extraction_rules

@@ -98,9 +98,6 @@ class MainActivity : ComponentActivity() {
         this.recyclerView = viewBinding.tasksRv;
         this.recyclerView.layoutManager = LinearLayoutManager(this)
 
-        taskAdapter = TasksAdapter(data, this)
-        recyclerView.adapter = taskAdapter
-
         executorService.execute(Runnable {
             myDbHelper = MyDbHelper.getInstance(this)
             data = myDbHelper.getAllTasks("User1")

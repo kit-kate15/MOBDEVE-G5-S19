@@ -8,6 +8,7 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
@@ -32,6 +33,19 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+private val PopupColorScheme = lightColorScheme(
+    primary = Color.White,
+    secondary = Color(0xFF6200EE),
+    tertiary = Color(0xFF03DAC6),
+    background = Color(0xFFF7ECDF),
+    surface = Color(0xFFF7ECDF), // Optional: Use the same color for the surface
+    onPrimary = Color.Black,
+    onSecondary = Color.White,
+    onTertiary = Color.Black,
+    onBackground = Color.Black,
+    onSurface = Color.Black
+)
+
 @Composable
 fun TestForMCO2Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -53,5 +67,14 @@ fun TestForMCO2Theme(
         colorScheme = colorScheme,
         typography = Typography,
         content = content
+    )
+}
+
+@Composable
+fun PopupTheme(content: @Composable () -> Unit) {
+    MaterialTheme(
+        colorScheme = PopupColorScheme,
+        typography = Typography, // Use the existing typography
+        content = content         // Content will be added dynamically
     )
 }

@@ -2,4 +2,11 @@
 <resources>
 
     <style name="Theme.TestForMCO2" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="PopupTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
 </resources>

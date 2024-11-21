@@ -959,6 +959,7 @@ drawable tasks_shape
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable view_task_bg
 id ALT
 id CTRL
 id FUNCTION
@@ -1086,13 +1087,17 @@ id currentState
 id custom
 id customPanel
 id dashboardLl
+id dateTextTv
 id deadlineDateEv
+id deadlineTv
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descriptionHeaderTv
+id descriptionTextTv
 id dialog_button
 id dimensions
 id direct
@@ -1285,6 +1290,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id taskHeaderTv
 id taskTitleEv
 id tasksRv
 id tasksTextTl
@@ -1371,6 +1377,7 @@ layout activity_add_tasks
 layout activity_login
 layout activity_main
 layout activity_pomodoro
+layout activity_view_tasks
 layout custom_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -1429,8 +1436,10 @@ string call_notification_screening_text
 string card_text
 string close_drawer
 string close_sheet
+string deadlineHeader
 string default_error_message
 string default_popup_window_title
+string description
 string dropdown_menu
 string email_placeholder
 string enter_date
@@ -1513,6 +1522,7 @@ string switch_role
 string tab
 string task_title
 string tasks
+string template
 string template_percent
 string text_description
 string tooltip_description
@@ -1694,6 +1704,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style PopupTheme
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon

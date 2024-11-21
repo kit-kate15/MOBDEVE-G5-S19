@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_view_task_bg.xml.flat",
+        "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\view_task_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_footer_shape.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\footer_shape.xml"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_pomodoro.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_pomodoro.xml"
+    },
+    {
+        "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_view_tasks.xml.flat",
+        "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_view_tasks.xml"
     },
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\xml_data_extraction_rules.xml.flat",
@@ -60,10 +68,6 @@
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_curve_orange.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_add_tasks.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_add_tasks.xml"
-    },
-    {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_launcher_background.xml"
     },
@@ -82,6 +86,10 @@
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_button_bg.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_add_tasks.xml.flat",
+        "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_add_tasks.xml"
     },
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -110,6 +118,10 @@
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_view_tasks.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_view_tasks.xml"
     },
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_launcher_foreground.xml.flat",

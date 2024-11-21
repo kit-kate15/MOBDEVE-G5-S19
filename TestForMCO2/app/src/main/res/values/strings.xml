@@ -15,4 +15,7 @@
     <string name="enter_date">Deadline</string>
     <string name="text_description">Write down your descripiton here...</string>
     <string name="submit">Submit</string>
+    <string name="deadlineHeader">Deadline:</string>
+    <string name="description">Description:</string>
+    <string name="template">TextView</string>
 </resources>

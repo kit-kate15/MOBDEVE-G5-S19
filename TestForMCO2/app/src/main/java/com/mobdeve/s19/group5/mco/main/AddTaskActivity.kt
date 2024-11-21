@@ -66,7 +66,7 @@ class AddTaskActivity : ComponentActivity() {
                         intent.putExtra("DEADLINE", this.deadlineEv.text.toString())
                         intent.putExtra("TASK_DESC_KEY", this.descriptionEv.text.toString())
                         intent.putExtra("TASK_ID_KEY", id)
-                        setResult(RESULT_OK, intent)
+                        setResult(ResultCodes.ADD_RESULT.ordinal, intent)
                         finish()
                     })
                 })
