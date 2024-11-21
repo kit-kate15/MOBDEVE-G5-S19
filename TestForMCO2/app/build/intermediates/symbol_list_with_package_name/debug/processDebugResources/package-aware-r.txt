@@ -673,6 +673,7 @@ color max_red
 color min_red
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1085,6 +1086,7 @@ id currentState
 id custom
 id customPanel
 id dashboardLl
+id deadlineDateEv
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -1134,6 +1136,7 @@ id grouping
 id groups
 id headerLl
 id headerSpace
+id headerTv
 id hide_graphics_layer_in_inspector_tag
 id hide_ime_id
 id hide_in_inspector_tag
@@ -1265,6 +1268,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id submenuarrow
+id submitBtn
 id submit_area
 id supportScrollUp
 id tabMode
@@ -1281,11 +1285,13 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id taskTitleEv
 id tasksRv
 id tasksTextTl
 id tasksTv
 id text
 id text2
+id textDescriptionEv
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time
@@ -1361,6 +1367,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_tasks
 layout activity_login
 layout activity_main
 layout activity_pomodoro
@@ -1408,6 +1415,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_tasks
 string androidx_startup
 string app_name
 string button_card_text
@@ -1425,6 +1433,7 @@ string default_error_message
 string default_popup_window_title
 string dropdown_menu
 string email_placeholder
+string enter_date
 string hello_john_doe
 string in_progress
 string indeterminate
@@ -1499,10 +1508,13 @@ string state_empty
 string state_off
 string state_on
 string status_bar_notification_info_overflow
+string submit
 string switch_role
 string tab
+string task_title
 string tasks
 string template_percent
+string text_description
 string tooltip_description
 string tooltip_label
 string welcome_back

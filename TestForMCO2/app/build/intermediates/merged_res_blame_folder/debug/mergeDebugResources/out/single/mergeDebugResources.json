@@ -60,6 +60,10 @@
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_curve_orange.xml"
     },
     {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_add_tasks.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_add_tasks.xml"
+    },
+    {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_launcher_background.xml"
     },
@@ -94,10 +98,6 @@
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_main.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_continue1.png.flat",

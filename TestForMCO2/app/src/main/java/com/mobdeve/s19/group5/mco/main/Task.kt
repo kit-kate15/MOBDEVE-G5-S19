@@ -36,4 +36,8 @@ class Task {
         this.id = id
     }
 
+    override fun toString(): String {
+        return "Task(taskName='$taskName', user='$user', taskDescription='$taskDescription', taskStatus='$taskStatus', taskCreatedAt=$taskCreatedAt, deadlineDate=$deadlineDate, id=$id)"
+    }
+
 }

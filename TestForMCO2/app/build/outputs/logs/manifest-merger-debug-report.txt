@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\jonat\.gradle\caches\transforms-4\e73e133ae85c67deb5da997e90cd8859\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jonat\.gradle\caches\transforms-4\cb0640113eb423dfbf0e1a80e9781954\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\jonat\.gradle\caches\transforms-4\9c3f403f7f4a20d3810a62c1d2dcbcf0\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -78,8 +78,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\jonat\.
 	xmlns:android
 		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:5:5-28:19
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:5:5-29:19
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:5:5-29:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jonat\.gradle\caches\transforms-4\cb0640113eb423dfbf0e1a80e9781954\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jonat\.gradle\caches\transforms-4\cb0640113eb423dfbf0e1a80e9781954\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\jonat\.gradle\caches\transforms-4\93ca7c74309532646301d1cf1f7041cf\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
@@ -148,6 +148,10 @@ activity#com.mobdeve.s19.group5.mco.main.PomodoroActivity
 ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:27:9-63
 	android:name
 		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:27:19-51
+activity#com.mobdeve.s19.group5.mco.main.AddTaskActivity
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:28:9-62
+	android:name
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:28:19-50
 uses-sdk
 INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml

@@ -43,12 +43,16 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
                 val taskCreatedAt = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_CREATED_AT))
                 val deadlineDate = cursor.getString(cursor.getColumnIndex(DbReferences.DEADLINE_DATE))
 
+                //fix dates later
                 val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
-                val taskCreatedAtDateTime = LocalDateTime.parse(taskCreatedAt, formatter)
-                val deadlineDateTime = LocalDateTime.parse(deadlineDate, formatter)
+//                val taskCreatedAtDateTime = LocalDateTime.parse(taskCreatedAt, formatter)
+//                val deadlineDateTime = LocalDateTime.parse(deadlineDate, formatter)
 
-                val taskCreatedCustomDate = CustomDate(taskCreatedAtDateTime.year, taskCreatedAtDateTime.monthValue, taskCreatedAtDateTime.dayOfMonth)
-                val deadlineCustomDate = CustomDate(deadlineDateTime.year, deadlineDateTime.monthValue, deadlineDateTime.dayOfMonth)
+//                val taskCreatedCustomDate = CustomDate(taskCreatedAtDateTime.year, taskCreatedAtDateTime.monthValue, taskCreatedAtDateTime.dayOfMonth)
+//                val deadlineCustomDate = CustomDate(deadlineDateTime.year, deadlineDateTime.monthValue, deadlineDateTime.dayOfMonth)
+
+                val taskCreatedCustomDate = CustomDate(2022, 1, 1)
+                val deadlineCustomDate = CustomDate(2022, 1, 1)
 
                 tasks.add(Task(taskName, user, taskDescription, taskStatus, taskCreatedCustomDate, deadlineCustomDate, id))
             } while (cursor.moveToNext())

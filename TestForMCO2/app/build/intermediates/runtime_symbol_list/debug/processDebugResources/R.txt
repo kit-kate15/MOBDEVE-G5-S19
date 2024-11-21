@@ -672,6 +672,7 @@ int color max_red 0x7f050042
 int color min_red 0x7f050043
 int color notification_action_color_filter 0x7f050044
 int color notification_icon_bg_color 0x7f050045
+int color orange 0x7f050065
 int color primary_dark_material_dark 0x7f050046
 int color primary_dark_material_light 0x7f050047
 int color primary_material_dark 0x7f050048
@@ -1084,6 +1085,7 @@ int id currentState 0x7f08007b
 int id custom 0x7f08007c
 int id customPanel 0x7f08007d
 int id dashboardLl 0x7f08007e
+int id deadlineDateEv 0x7f08016a
 int id decelerate 0x7f08007f
 int id decelerateAndComplete 0x7f080080
 int id decor_content_parent 0x7f080081
@@ -1133,6 +1135,7 @@ int id grouping 0x7f0800ac
 int id groups 0x7f0800ad
 int id headerLl 0x7f0800ae
 int id headerSpace 0x7f0800af
+int id headerTv 0x7f08016b
 int id hide_graphics_layer_in_inspector_tag 0x7f0800b0
 int id hide_ime_id 0x7f0800b1
 int id hide_in_inspector_tag 0x7f0800b2
@@ -1264,6 +1267,7 @@ int id staticLayout 0x7f08012f
 int id staticPostLayout 0x7f080130
 int id stop 0x7f080131
 int id submenuarrow 0x7f080132
+int id submitBtn 0x7f08016c
 int id submit_area 0x7f080133
 int id supportScrollUp 0x7f080134
 int id tabMode 0x7f080135
@@ -1280,11 +1284,13 @@ int id tag_transition_group 0x7f08013f
 int id tag_unhandled_key_event_manager 0x7f080140
 int id tag_unhandled_key_listeners 0x7f080141
 int id tag_window_insets_animation_callback 0x7f080142
+int id taskTitleEv 0x7f08016d
 int id tasksRv 0x7f080143
 int id tasksTextTl 0x7f080144
 int id tasksTv 0x7f080145
 int id text 0x7f080146
 int id text2 0x7f080147
+int id textDescriptionEv 0x7f08016e
 int id textSpacerNoButtons 0x7f080148
 int id textSpacerNoTitle 0x7f080149
 int id time 0x7f08014a
@@ -1360,6 +1366,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_add_tasks 0x7f0b002f
 int layout activity_login 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_pomodoro 0x7f0b002e
@@ -1407,6 +1414,7 @@ int string abc_searchview_description_voice 0x7f0d0017
 int string abc_shareactionprovider_share_with 0x7f0d0018
 int string abc_shareactionprovider_share_with_application 0x7f0d0019
 int string abc_toolbar_collapse_description 0x7f0d001a
+int string add_tasks 0x7f0d007d
 int string androidx_startup 0x7f0d001b
 int string app_name 0x7f0d001c
 int string button_card_text 0x7f0d001d
@@ -1424,6 +1432,7 @@ int string default_error_message 0x7f0d0028
 int string default_popup_window_title 0x7f0d0029
 int string dropdown_menu 0x7f0d002a
 int string email_placeholder 0x7f0d002b
+int string enter_date 0x7f0d007e
 int string hello_john_doe 0x7f0d002c
 int string in_progress 0x7f0d002d
 int string indeterminate 0x7f0d002e
@@ -1498,10 +1507,13 @@ int string state_empty 0x7f0d0072
 int string state_off 0x7f0d0073
 int string state_on 0x7f0d0074
 int string status_bar_notification_info_overflow 0x7f0d0075
+int string submit 0x7f0d007f
 int string switch_role 0x7f0d0076
 int string tab 0x7f0d0077
+int string task_title 0x7f0d0080
 int string tasks 0x7f0d0078
 int string template_percent 0x7f0d0079
+int string text_description 0x7f0d0081
 int string tooltip_description 0x7f0d007a
 int string tooltip_label 0x7f0d007b
 int string welcome_back 0x7f0d007c
