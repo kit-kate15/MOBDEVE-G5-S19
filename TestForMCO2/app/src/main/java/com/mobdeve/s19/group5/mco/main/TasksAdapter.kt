@@ -1,5 +1,6 @@
 package com.mobdeve.s19.group5.mco.main
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
@@ -17,6 +18,7 @@ class TasksAdapter(private val data: ArrayList<Task>, private val activity: Main
     private lateinit var  myDbHelper: MyDbHelper
     private val executorService: ExecutorService = Executors.newSingleThreadExecutor()
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TasksViewHolder {
         val itemTasksViewBinding: ItemTasksLayoutBinding = ItemTasksLayoutBinding.inflate(
             LayoutInflater.from(parent.context),
@@ -45,6 +47,21 @@ class TasksAdapter(private val data: ArrayList<Task>, private val activity: Main
             intent.putExtra("VIEW_HOLDER_POSITION_KEY", tasksViewHolder.bindingAdapterPosition)
 
             tasksViewHolder.itemView.context.startActivity(intent)
+        }
+
+        tasksViewHolder.setCheckBtnOnClickListener {
+            executorService.execute(Runnable {
+                myDbHelper = MyDbHelper.getInstance(activity)
+                val task = data[tasksViewHolder.bindingAdapterPosition]
+                task.taskStatus = "Done"
+                myDbHelper.updateTask(task)
+                activity.runOnUiThread {
+                    Toast.makeText(activity, "Task Completed", Toast.LENGTH_SHORT).show()
+                    data.removeAt(tasksViewHolder.bindingAdapterPosition)
+                    notifyDataSetChanged()
+                }
+            })
+
         }
         return tasksViewHolder
     }

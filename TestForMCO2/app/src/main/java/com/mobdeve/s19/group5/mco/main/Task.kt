@@ -8,7 +8,6 @@ class Task {
     var taskDescription: String
         private set
     var taskStatus: String
-        private set
     var taskCreatedAt: CustomDate
         private set
     var deadlineDate: CustomDate

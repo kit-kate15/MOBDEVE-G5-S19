@@ -11,7 +11,9 @@ import com.mobdeve.s19.group5.mco.main.databinding.ItemTasksLayoutBinding
 class TasksViewHolder(private val viewBinding: ItemTasksLayoutBinding) : RecyclerView.ViewHolder(viewBinding.root) {
     fun bindData(task: Task){
         this.viewBinding.tasksTextTl.text = task.taskName
-
     }
 
+    fun setCheckBtnOnClickListener(listener: View.OnClickListener){
+        this.viewBinding.checkIb.setOnClickListener(listener)
+    }
 }
