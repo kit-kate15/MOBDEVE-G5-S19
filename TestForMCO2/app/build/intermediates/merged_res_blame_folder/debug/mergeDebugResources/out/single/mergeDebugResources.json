@@ -1,174 +1,174 @@
 [
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_button_curve_orange.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/button_curve_orange.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_view_tasks.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_view_tasks.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_menu_foreground.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_menu_foreground.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_red_progressbar_background.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\red_progressbar_background.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_item_tasks_layout.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/item_tasks_layout.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_view_task_bg.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/view_task_bg.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_pomodoro.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_pomodoro.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/xml_data_extraction_rules.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_notes.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_notes.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_circle.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_circle.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_button_curve_orange.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_curve_orange.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_footer_shape.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/footer_shape.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_tasks_shape.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\tasks_shape.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_button_style.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/button_style.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_pomodoro.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_pomodoro.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_flash_card.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_flash_card.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_circular_progress.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\circular_progress.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_tasks_shape.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/tasks_shape.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_add_tasks.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_add_tasks.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_check_filled.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_check_filled.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_pomodoro.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_pomodoro.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_notes.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_notes.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_settings.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_button_bg.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/button_bg.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_pomodoro.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_pomodoro.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_settings.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_settings.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_item_tasks_layout.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\item_tasks_layout.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_circular_progress.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/circular_progress.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_pause1.png.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/pause1.png"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_pomodoro_start.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/pomodoro_start.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_curve.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\curve.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_flash_card.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_flash_card.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_add_tasks.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_add_tasks.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_button_bg.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_bg.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_continue1.png.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/continue1.png"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_view_task_bg.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\view_task_bg.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_circle.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_circle.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_pause1.png.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\pause1.png"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_footer_shape.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\footer_shape.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_menu_foreground.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_menu_foreground.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_check_unfilled.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_check_unfilled.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_button_style.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_style.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_red_progressbar_background.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/red_progressbar_background.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_main.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_main.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_continue1.png.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\continue1.png"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/xml_backup_rules.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_calendar.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_check_unfilled.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_check_unfilled.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_view_tasks.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_view_tasks.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_check_filled.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_check_filled.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_login.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_login.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\layout_pomodoro_start.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\layout\\pomodoro_start.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_curve.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/curve.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/drawable_ic_calendar.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_calendar.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     }
 ]

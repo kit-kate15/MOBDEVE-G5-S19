@@ -16,7 +16,6 @@ drawable button_bg
 drawable button_curve_orange
 drawable button_style
 drawable circular_progress
-drawable continue1
 drawable curve
 drawable footer_shape
 drawable ic_calendar
@@ -30,7 +29,6 @@ drawable ic_menu_foreground
 drawable ic_notes
 drawable ic_pomodoro
 drawable ic_settings
-drawable pause1
 drawable red_progressbar_background
 drawable tasks_shape
 drawable view_task_bg
@@ -61,18 +59,14 @@ id headerLl
 id headerSpace
 id headerTv
 id imageButton2
-id imageView
-id imageView2
 id insideLl
 id loginBtn
 id loginCl
 id logoIv
-id main
 id mainCl
 id mainLl
 id notesBtn
 id passwordText
-id pbTimer
 id pomodoroBtn
 id progress_bar
 id settingsBtn
@@ -84,7 +78,6 @@ id tasksRv
 id tasksTextTl
 id tasksTv
 id textDescriptionEv
-id tvTimeLeft
 id tv_timer
 id welcomeTv
 layout activity_add_tasks
@@ -93,7 +86,6 @@ layout activity_main
 layout activity_pomodoro
 layout activity_view_tasks
 layout item_tasks_layout
-layout pomodoro_start
 mipmap ic_launcher
 mipmap ic_launcher_round
 string add_tasks

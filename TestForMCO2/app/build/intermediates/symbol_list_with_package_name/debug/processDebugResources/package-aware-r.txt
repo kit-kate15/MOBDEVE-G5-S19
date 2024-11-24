@@ -923,7 +923,6 @@ drawable button_bg
 drawable button_curve_orange
 drawable button_style
 drawable circular_progress
-drawable continue1
 drawable curve
 drawable footer_shape
 drawable ic_calendar
@@ -956,7 +955,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable pause1
 drawable red_progressbar_background
 drawable tasks_shape
 drawable test_level_drawable
@@ -1161,8 +1159,6 @@ id ignore
 id ignoreRequest
 id image
 id imageButton2
-id imageView
-id imageView2
 id immediateStop
 id included
 id info
@@ -1185,7 +1181,6 @@ id list_item
 id loginBtn
 id loginCl
 id logoIv
-id main
 id mainCl
 id mainLl
 id match_constraint
@@ -1216,7 +1211,6 @@ id parentRelative
 id passwordText
 id path
 id pathRelative
-id pbTimer
 id percent
 id pomodoroBtn
 id pooling_container_listener_holder_tag
@@ -1316,7 +1310,6 @@ id topPanel
 id transitionToEnd
 id transitionToStart
 id triangle
-id tvTimeLeft
 id tv_timer
 id unchecked
 id uniform
@@ -1395,7 +1388,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout pomodoro_start
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
