@@ -655,6 +655,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green_button
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -920,6 +921,8 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_bg
 drawable button_curve_orange
+drawable button_style
+drawable circular_progress
 drawable continue1
 drawable curve
 drawable footer_shape
@@ -1056,7 +1059,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnPlayPause
+id btn_container
+id btn_reset
+id btn_start_pause
 id buttonPanel
 id cache_measures
 id calendarBtn
@@ -1217,6 +1222,7 @@ id pomodoroBtn
 id pooling_container_listener_holder_tag
 id position
 id postLayout
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -1311,6 +1317,7 @@ id transitionToEnd
 id transitionToStart
 id triangle
 id tvTimeLeft
+id tv_timer
 id unchecked
 id uniform
 id up

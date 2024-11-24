@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="green_button">#2EB853</color>
     <color name="max_red">#D24545</color>
     <color name="min_red">#CF6969</color>
     <color name="orange">#E08814</color>

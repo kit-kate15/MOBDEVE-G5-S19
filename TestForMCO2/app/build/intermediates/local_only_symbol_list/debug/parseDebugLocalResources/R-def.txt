@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color green_button
 color max_red
 color min_red
 color orange
@@ -13,6 +14,8 @@ color teal_700
 color white
 drawable button_bg
 drawable button_curve_orange
+drawable button_style
+drawable circular_progress
 drawable continue1
 drawable curve
 drawable footer_shape
@@ -34,7 +37,9 @@ drawable view_task_bg
 id TasksLl
 id TitleTv
 id addTasksBtn
-id btnPlayPause
+id btn_container
+id btn_reset
+id btn_start_pause
 id calendarBtn
 id cardTextTv
 id cardTitleTv
@@ -69,6 +74,7 @@ id notesBtn
 id passwordText
 id pbTimer
 id pomodoroBtn
+id progress_bar
 id settingsBtn
 id slideLl
 id submitBtn
@@ -79,6 +85,7 @@ id tasksTextTl
 id tasksTv
 id textDescriptionEv
 id tvTimeLeft
+id tv_timer
 id welcomeTv
 layout activity_add_tasks
 layout activity_login

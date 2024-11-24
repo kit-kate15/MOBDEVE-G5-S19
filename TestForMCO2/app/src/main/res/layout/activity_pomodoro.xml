@@ -1,91 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PomodoroActivity">
 
+    <!-- Timer and ProgressBar Container -->
     <FrameLayout
         android:id="@+id/fltimer"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308">
+        app:layout_constraintBottom_toTopOf="@id/btn_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.4">
 
+        <!-- Circular Progress Bar -->
         <ProgressBar
-            android:id="@+id/pbTimer"
+            android:id="@+id/progress_bar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
             android:indeterminate="false"
-            android:max="10"
-            android:progress="10"
-            android:rotation="-90"
-            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-            android:progressDrawable="@drawable/red_progressbar_background">
-<!--            android:background="@drawable/grey_progressbar_background"-->
+            android:progressDrawable="@drawable/circular_progress"
+            android:progress="100"
+            android:max="100"
+            style="?android:attr/progressBarStyleHorizontal" />
 
-        </ProgressBar>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <TextView
-                android:id="@+id/tvTimeLeft"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="25:00"
-                android:textStyle="bold"
-                android:textSize="26sp"
-                android:textColor="@color/max_red"
-                android:gravity="center"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="min"
-                android:gravity="center"
-                android:textSize="20sp"
-                android:textColor="@color/max_red"/>
-        </LinearLayout>
+        <!-- Timer Text Inside Progress Bar -->
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="25:00"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
     </FrameLayout>
 
-    <!--    <TextView-->
-<!--        android:id="@+id/tv_addTime"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="44dp"-->
-<!--        android:layout_marginBottom="160dp"-->
-<!--        android:text="+15s"-->
-<!--        android:textColor="@color/max_red"-->
-<!--        android:textSize="24sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnPlayPause"
-        android:layout_width="282dp"
-        android:layout_height="42dp"
-        android:background="@drawable/button_bg"
-        android:text="Start"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:id="@+id/btn_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/fltimer"
+        app:layout_constraintBottom_toTopOf="@id/footericonsLl"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677"></androidx.appcompat.widget.AppCompatButton>
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Start/Pause Button -->
+        <Button
+            android:id="@+id/btn_start_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2EB853"
+            android:layout_marginEnd="12dp"
+            android:padding="16dp" />
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@android:color/darker_gray"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <!-- Footer Icons -->
     <LinearLayout
         android:id="@+id/footericonsLl"
         android:layout_width="0dp"
@@ -101,39 +89,32 @@
             android:id="@+id/calendarBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_weight="0"
             android:backgroundTint="@android:color/transparent"
             android:src="@drawable/ic_calendar"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp" />
 
         <ImageButton
             android:id="@+id/notesBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_weight="0"
             android:backgroundTint="@android:color/transparent"
             android:src="@drawable/ic_notes"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp" />
 
         <ImageButton
             android:id="@+id/pomodoroBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_weight="0"
             android:backgroundTint="@android:color/transparent"
             android:src="@drawable/ic_pomodoro"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp" />
 
         <ImageButton
             android:id="@+id/flashCardBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_weight="0"
             android:backgroundTint="@android:color/transparent"
             android:src="@drawable/ic_flash_card"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
