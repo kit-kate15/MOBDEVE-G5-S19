@@ -935,6 +935,7 @@ drawable ic_call_decline_low
 drawable ic_check_filled
 drawable ic_check_unfilled
 drawable ic_circle
+drawable ic_edit_button
 drawable ic_flash_card
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1120,6 +1121,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editIb
 id edit_query
 id edit_text_id
 id emailTv
@@ -1526,6 +1528,8 @@ string template_percent
 string text_description
 string tooltip_description
 string tooltip_label
+string update
+string update_task
 string welcome_back
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

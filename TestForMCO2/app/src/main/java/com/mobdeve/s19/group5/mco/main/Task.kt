@@ -8,14 +8,14 @@ class Task {
     var taskDescription: String
         private set
     var taskStatus: String
-    var taskCreatedAt: CustomDate
+    var taskCreatedAt: String
         private set
-    var deadlineDate: CustomDate
+    var deadlineDate: String
         private set
     var id: Long
         private set
 
-    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, taskCreatedAt: CustomDate, deadlineDate: CustomDate) {
+    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, taskCreatedAt: String, deadlineDate: String) {
         this.taskName = taskName
         this.user = user
         this.taskDescription = taskDescription
@@ -25,7 +25,7 @@ class Task {
         this.id = -1
     }
 
-    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, taskCreatedAt: CustomDate, deadlineDate: CustomDate, id: Long) {
+    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, taskCreatedAt: String, deadlineDate: String, id: Long) {
         this.taskName = taskName
         this.user = user
         this.taskDescription = taskDescription

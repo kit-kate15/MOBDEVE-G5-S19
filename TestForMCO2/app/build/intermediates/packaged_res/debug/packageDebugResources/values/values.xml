@@ -30,6 +30,8 @@
     <string name="tasks">Tasks</string>
     <string name="template">TextView</string>
     <string name="text_description">Write down your descripiton here...</string>
+    <string name="update">Update</string>
+    <string name="update_task">Update Task</string>
     <string name="welcome_back">Dashboard</string>
     <style name="PopupTheme">
         <item name="android:windowIsTranslucent">true</item>

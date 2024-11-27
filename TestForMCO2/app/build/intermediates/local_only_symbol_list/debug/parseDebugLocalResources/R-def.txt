@@ -22,6 +22,7 @@ drawable ic_calendar
 drawable ic_check_filled
 drawable ic_check_unfilled
 drawable ic_circle
+drawable ic_edit_button
 drawable ic_flash_card
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -48,6 +49,7 @@ id deadlineDateEv
 id deadlineTv
 id descriptionHeaderTv
 id descriptionTextTv
+id editIb
 id emailTv
 id flashCardBtn
 id fltimer
@@ -106,6 +108,8 @@ string task_title
 string tasks
 string template
 string text_description
+string update
+string update_task
 string welcome_back
 style PopupTheme
 style Theme.TestForMCO2

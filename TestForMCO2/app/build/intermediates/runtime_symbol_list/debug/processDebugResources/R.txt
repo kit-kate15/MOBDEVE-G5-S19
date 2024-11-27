@@ -934,6 +934,7 @@ int drawable ic_call_decline_low 0x7f070064
 int drawable ic_check_filled 0x7f070065
 int drawable ic_check_unfilled 0x7f070066
 int drawable ic_circle 0x7f070067
+int drawable ic_edit_button 0x7f070082
 int drawable ic_flash_card 0x7f070068
 int drawable ic_launcher_background 0x7f070069
 int drawable ic_launcher_foreground 0x7f07006a
@@ -1119,6 +1120,7 @@ int id easeIn 0x7f08009b
 int id easeInOut 0x7f08009c
 int id easeOut 0x7f08009d
 int id east 0x7f08009e
+int id editIb 0x7f080174
 int id edit_query 0x7f08009f
 int id edit_text_id 0x7f0800a0
 int id emailTv 0x7f0800a1
@@ -1525,7 +1527,9 @@ int string template_percent 0x7f0d0080
 int string text_description 0x7f0d0081
 int string tooltip_description 0x7f0d0082
 int string tooltip_label 0x7f0d0083
-int string welcome_back 0x7f0d0084
+int string update 0x7f0d0084
+int string update_task 0x7f0d0085
+int string welcome_back 0x7f0d0086
 int style AlertDialog_AppCompat 0x7f0e0000
 int style AlertDialog_AppCompat_Light 0x7f0e0001
 int style Animation_AppCompat_Dialog 0x7f0e0002

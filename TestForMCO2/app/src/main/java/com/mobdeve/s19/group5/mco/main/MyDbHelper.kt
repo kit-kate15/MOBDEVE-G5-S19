@@ -51,10 +51,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
 //                val taskCreatedCustomDate = CustomDate(taskCreatedAtDateTime.year, taskCreatedAtDateTime.monthValue, taskCreatedAtDateTime.dayOfMonth)
 //                val deadlineCustomDate = CustomDate(deadlineDateTime.year, deadlineDateTime.monthValue, deadlineDateTime.dayOfMonth)
 
-                val taskCreatedCustomDate = CustomDate(2022, 1, 1)
-                val deadlineCustomDate = CustomDate(2022, 1, 1)
-
-                tasks.add(Task(taskName, user, taskDescription, taskStatus, taskCreatedCustomDate, deadlineCustomDate, id))
+                tasks.add(Task(taskName, user, taskDescription, taskStatus, taskCreatedAt, deadlineDate, id))
             } while (cursor.moveToNext())
         }
         cursor.close()
@@ -62,16 +59,18 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         return tasks
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     @Synchronized
     fun addTask(task: Task): Long {
         val db = writableDatabase
         val values = ContentValues()
+        val currentDateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
         values.put(DbReferences.TASK_NAME, task.taskName)
         values.put(DbReferences.USER, task.user)
         values.put(DbReferences.TASK_DESCRIPTION, task.taskDescription)
         values.put(DbReferences.TASK_STATUS, task.taskStatus)
-        values.put(DbReferences.TASK_CREATED_AT, task.taskCreatedAt.databaseFormat())
-        values.put(DbReferences.DEADLINE_DATE, task.deadlineDate.databaseFormat())
+        values.put(DbReferences.TASK_CREATED_AT,  currentDateTime)
+        values.put(DbReferences.DEADLINE_DATE, task.deadlineDate)
         val id = db.insert(DbReferences.TABLE_NAME, null, values)
         db.close()
         return id
@@ -84,8 +83,8 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         values.put(DbReferences.USER, task.user)
         values.put(DbReferences.TASK_DESCRIPTION, task.taskDescription)
         values.put(DbReferences.TASK_STATUS, task.taskStatus)
-        values.put(DbReferences.TASK_CREATED_AT, task.taskCreatedAt.databaseFormat())
-        values.put(DbReferences.DEADLINE_DATE, task.deadlineDate.databaseFormat())
+        values.put(DbReferences.TASK_CREATED_AT, task.taskCreatedAt)
+        values.put(DbReferences.DEADLINE_DATE, task.deadlineDate)
         val updatedRows = db.update(DbReferences.TABLE_NAME, values, "${DbReferences._ID} = ?", arrayOf(task.id.toString()))
         db.close()
         return updatedRows

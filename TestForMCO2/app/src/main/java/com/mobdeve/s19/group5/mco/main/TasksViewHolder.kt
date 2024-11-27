@@ -16,4 +16,8 @@ class TasksViewHolder(private val viewBinding: ItemTasksLayoutBinding) : Recycle
     fun setCheckBtnOnClickListener(listener: View.OnClickListener){
         this.viewBinding.checkIb.setOnClickListener(listener)
     }
+
+    fun setEditBtnOnClickListener(listener: View.OnClickListener){
+        this.viewBinding.editIb.setOnClickListener(listener)
+    }
 }

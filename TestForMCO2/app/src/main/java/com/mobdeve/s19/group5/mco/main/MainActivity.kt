@@ -40,7 +40,6 @@ class MainActivity : ComponentActivity() {
     ) { result: ActivityResult ->
         if(data != null) {
             val data = result.data
-
             if(data != null) {
                 val tempTask = Task(
                     data.getStringExtra("TASK_NAME_KEY").toString(),
@@ -48,15 +47,13 @@ class MainActivity : ComponentActivity() {
                     "User1",
                     data.getStringExtra("TASK_DESC_KEY").toString(),
                     "Pending",
-                    //CustomDate(data.getStringExtra("TASK_CREATED_AT_KEY").toString()),
-                    //CustomDate(data.getStringExtra("TASK_DEADLINE_KEY").toString())
-                    CustomDate(2022, 1, 1),
-                    CustomDate(2022, 1, 1),
+                    data.getStringExtra("TASK_CREATED_AT_KEY").toString(),
+                    data.getStringExtra("TASK_DEADLINE_KEY").toString(),
                     data.getLongExtra("TASK_ID_KEY", -1)
                 )
 
                 Log.d("ResultsFromAddTask", "Task: $tempTask")
-
+                Log.d("ResultsFromAddTask", "ResultCode: ${result.resultCode}")
                 when(result.resultCode) {
                     ResultCodes.ADD_RESULT.ordinal -> {
                         this.data.add(0, tempTask)
@@ -103,7 +100,7 @@ class MainActivity : ComponentActivity() {
             data = myDbHelper.getAllTasks("User1")
 
             runOnUiThread(Runnable {
-                taskAdapter = TasksAdapter(data, this)
+                taskAdapter = TasksAdapter(data, this, newTaskResultLauncher)
                 recyclerView.adapter = taskAdapter
 
                 this.taskAdapter.notifyDataSetChanged()

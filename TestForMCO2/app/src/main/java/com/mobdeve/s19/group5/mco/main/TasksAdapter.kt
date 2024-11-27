@@ -13,7 +13,7 @@ import java.util.ArrayList
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-class TasksAdapter(private val data: ArrayList<Task>, private val activity: MainActivity): Adapter<TasksViewHolder>() {
+class TasksAdapter(private val data: ArrayList<Task>, private val activity: MainActivity, private val newTaskResultLauncher: ActivityResultLauncher<Intent>): Adapter<TasksViewHolder>() {
 
     private lateinit var  myDbHelper: MyDbHelper
     private val executorService: ExecutorService = Executors.newSingleThreadExecutor()
@@ -41,7 +41,7 @@ class TasksAdapter(private val data: ArrayList<Task>, private val activity: Main
             val intent: Intent = Intent(tasksViewHolder.itemView.context, ViewTaskActivity::class.java)
             intent.putExtra("TASK_NAME_KEY", data[tasksViewHolder.bindingAdapterPosition].taskName)
             intent.putExtra("TASK_DESC_KEY", data[tasksViewHolder.bindingAdapterPosition].taskDescription)
-            intent.putExtra("TASK_DEADLINE_KEY", data[tasksViewHolder.bindingAdapterPosition].deadlineDate.toStringFull())
+            intent.putExtra("TASK_DEADLINE_KEY", data[tasksViewHolder.bindingAdapterPosition].deadlineDate)
             intent.putExtra("TASK_STATUS_KEY", data[tasksViewHolder.bindingAdapterPosition].taskStatus)
             intent.putExtra("TASK_ID_KEY", data[tasksViewHolder.bindingAdapterPosition].id)
             intent.putExtra("VIEW_HOLDER_POSITION_KEY", tasksViewHolder.bindingAdapterPosition)
@@ -49,19 +49,28 @@ class TasksAdapter(private val data: ArrayList<Task>, private val activity: Main
             tasksViewHolder.itemView.context.startActivity(intent)
         }
 
+        tasksViewHolder.setEditBtnOnClickListener {
+            val editIntent = Intent(tasksViewHolder.itemView.context, AddTaskActivity::class.java)
+            editIntent.putExtra("TASK_NAME_KEY", data[tasksViewHolder.bindingAdapterPosition].taskName)
+            editIntent.putExtra("TASK_DESC_KEY", data[tasksViewHolder.bindingAdapterPosition].taskDescription)
+            editIntent.putExtra("TASK_DEADLINE_KEY", data[tasksViewHolder.bindingAdapterPosition].deadlineDate)
+            editIntent.putExtra("TASK_ID_KEY", data[tasksViewHolder.bindingAdapterPosition].id)
+            editIntent.putExtra("VIEW_HOLDER_POSITION_KEY", tasksViewHolder.bindingAdapterPosition)
+            this.newTaskResultLauncher.launch(editIntent)
+        }
+
         tasksViewHolder.setCheckBtnOnClickListener {
             executorService.execute(Runnable {
                 myDbHelper = MyDbHelper.getInstance(activity)
                 val task = data[tasksViewHolder.bindingAdapterPosition]
                 task.taskStatus = "Done"
-                myDbHelper.updateTask(task)
+                myDbHelper.deleteTask(task)
                 activity.runOnUiThread {
                     Toast.makeText(activity, "Task Completed", Toast.LENGTH_SHORT).show()
                     data.removeAt(tasksViewHolder.bindingAdapterPosition)
                     notifyDataSetChanged()
                 }
             })
-
         }
         return tasksViewHolder
     }

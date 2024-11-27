@@ -51,4 +51,5 @@
         android:paddingTop="10dp"
         android:text="@string/template"
         android:textSize="18sp"/>
+
 </LinearLayout>
