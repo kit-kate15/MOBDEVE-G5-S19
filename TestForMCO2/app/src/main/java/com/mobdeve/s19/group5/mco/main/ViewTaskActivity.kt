@@ -39,7 +39,7 @@ class ViewTaskActivity: ComponentActivity() {
 
         val taskName = intent.getStringExtra("TASK_NAME_KEY")
         val taskDesc = intent.getStringExtra("TASK_DESC_KEY")
-        val taskDeadline = intent.getStringExtra("TASK_DEADLINE_KEY")
+        val taskDeadline = intent.getStringExtra("TASK_DEADLINE_MONTH_KEY") + " " + intent.getStringExtra("TASK_DEADLINE_DAY_KEY") + ", " + intent.getStringExtra("TASK_DEADLINE_YEAR_KEY")
         val id = intent.getLongExtra("TASK_ID_KEY", -1)
 
         viewBinding.taskHeaderTv.text = taskName

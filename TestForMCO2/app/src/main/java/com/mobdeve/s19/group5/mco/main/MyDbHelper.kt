@@ -40,18 +40,10 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
                 val taskName = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_NAME))
                 val taskDescription = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_DESCRIPTION))
                 val taskStatus = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_STATUS))
-                val taskCreatedAt = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_CREATED_AT))
-                val deadlineDate = cursor.getString(cursor.getColumnIndex(DbReferences.DEADLINE_DATE))
-
-                //fix dates later
-                val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
-//                val taskCreatedAtDateTime = LocalDateTime.parse(taskCreatedAt, formatter)
-//                val deadlineDateTime = LocalDateTime.parse(deadlineDate, formatter)
-
-//                val taskCreatedCustomDate = CustomDate(taskCreatedAtDateTime.year, taskCreatedAtDateTime.monthValue, taskCreatedAtDateTime.dayOfMonth)
-//                val deadlineCustomDate = CustomDate(deadlineDateTime.year, deadlineDateTime.monthValue, deadlineDateTime.dayOfMonth)
-
-                tasks.add(Task(taskName, user, taskDescription, taskStatus, taskCreatedAt, deadlineDate, id))
+                val taskDeadlineYear = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_DEADLINE_YEAR))
+                val taskDeadlineMonth = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_DEADLINE_MONTH))
+                val taskDeadlineDay = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_DEADLINE_DAY))
+                tasks.add(Task(taskName, user, taskDescription, taskStatus, taskDeadlineYear, taskDeadlineMonth, taskDeadlineDay, id))
             } while (cursor.moveToNext())
         }
         cursor.close()
@@ -69,8 +61,9 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         values.put(DbReferences.USER, task.user)
         values.put(DbReferences.TASK_DESCRIPTION, task.taskDescription)
         values.put(DbReferences.TASK_STATUS, task.taskStatus)
-        values.put(DbReferences.TASK_CREATED_AT,  currentDateTime)
-        values.put(DbReferences.DEADLINE_DATE, task.deadlineDate)
+        values.put(DbReferences.TASK_DEADLINE_YEAR, task.deadlineYear)
+        values.put(DbReferences.TASK_DEADLINE_MONTH, task.deadlineMonth)
+        values.put(DbReferences.TASK_DEADLINE_DAY, task.deadlineDay)
         val id = db.insert(DbReferences.TABLE_NAME, null, values)
         db.close()
         return id
@@ -83,8 +76,9 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         values.put(DbReferences.USER, task.user)
         values.put(DbReferences.TASK_DESCRIPTION, task.taskDescription)
         values.put(DbReferences.TASK_STATUS, task.taskStatus)
-        values.put(DbReferences.TASK_CREATED_AT, task.taskCreatedAt)
-        values.put(DbReferences.DEADLINE_DATE, task.deadlineDate)
+        values.put(DbReferences.TASK_DEADLINE_YEAR, task.deadlineYear)
+        values.put(DbReferences.TASK_DEADLINE_MONTH, task.deadlineMonth)
+        values.put(DbReferences.TASK_DEADLINE_DAY, task.deadlineDay)
         val updatedRows = db.update(DbReferences.TABLE_NAME, values, "${DbReferences._ID} = ?", arrayOf(task.id.toString()))
         db.close()
         return updatedRows
@@ -111,8 +105,10 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         const val USER = "user"
         const val TASK_DESCRIPTION = "task_description"
         const val TASK_STATUS = "task_status"
-        const val TASK_CREATED_AT = "task_created_at"
-        const val DEADLINE_DATE = "deadline_date"
+        const val TASK_DEADLINE_YEAR = "task_deadline_year"
+        const val TASK_DEADLINE_MONTH = "task_deadline_month"
+        const val TASK_DEADLINE_DAY = "task_deadline_day"
+
 
         const val CREATE_TABLE_STATEMENT = """
             CREATE TABLE $TABLE_NAME (
@@ -121,8 +117,9 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
                 $USER TEXT,
                 $TASK_DESCRIPTION TEXT,
                 $TASK_STATUS TEXT,
-                $TASK_CREATED_AT TEXT,
-                $DEADLINE_DATE TEXT
+                $TASK_DEADLINE_YEAR TEXT,
+                $TASK_DEADLINE_MONTH TEXT,
+                $TASK_DEADLINE_DAY TEXT
             )
         """
 

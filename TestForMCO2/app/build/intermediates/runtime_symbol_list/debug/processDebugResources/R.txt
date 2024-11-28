@@ -29,6 +29,9 @@ int animator fragment_fade_enter 0x7f020002
 int animator fragment_fade_exit 0x7f020003
 int animator fragment_open_enter 0x7f020004
 int animator fragment_open_exit 0x7f020005
+int array array_date_day 0x7f110000
+int array array_date_month 0x7f110001
+int array array_date_year 0x7f110002
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr actionBarDivider 0x7f030002
@@ -654,6 +657,7 @@ int color error_color_material_dark 0x7f050030
 int color error_color_material_light 0x7f050031
 int color foreground_material_dark 0x7f050032
 int color foreground_material_light 0x7f050033
+int color gray 0x7f050067
 int color green_button 0x7f050034
 int color highlighted_text_material_dark 0x7f050035
 int color highlighted_text_material_light 0x7f050036
@@ -1092,7 +1096,10 @@ int id customPanel 0x7f08007f
 int id dashboardLl 0x7f080080
 int id dateTextTv 0x7f080081
 int id deadlineDateEv 0x7f080082
+int id deadlineDaySp 0x7f080178
+int id deadlineMonthSp 0x7f080179
 int id deadlineTv 0x7f080083
+int id deadlineYearSp 0x7f08017a
 int id decelerate 0x7f080084
 int id decelerateAndComplete 0x7f080085
 int id decor_content_parent 0x7f080086

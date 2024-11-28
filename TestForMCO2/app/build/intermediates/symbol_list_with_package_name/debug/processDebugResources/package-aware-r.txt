@@ -30,6 +30,9 @@ animator fragment_fade_enter
 animator fragment_fade_exit
 animator fragment_open_enter
 animator fragment_open_exit
+array array_date_day
+array array_date_month
+array array_date_year
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -655,6 +658,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color green_button
 color highlighted_text_material_dark
 color highlighted_text_material_light
@@ -1093,7 +1097,10 @@ id customPanel
 id dashboardLl
 id dateTextTv
 id deadlineDateEv
+id deadlineDaySp
+id deadlineMonthSp
 id deadlineTv
+id deadlineYearSp
 id decelerate
 id decelerateAndComplete
 id decor_content_parent

@@ -8,35 +8,39 @@ class Task {
     var taskDescription: String
         private set
     var taskStatus: String
-    var taskCreatedAt: String
+    var deadlineYear: String
         private set
-    var deadlineDate: String
+    var deadlineMonth: String
+        private set
+    var deadlineDay: String
         private set
     var id: Long
         private set
 
-    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, taskCreatedAt: String, deadlineDate: String) {
+    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, deadlineYear: String, deadlineMonth: String, deadlineDay: String) {
         this.taskName = taskName
         this.user = user
         this.taskDescription = taskDescription
         this.taskStatus = taskStatus
-        this.taskCreatedAt = taskCreatedAt
-        this.deadlineDate = deadlineDate
+        this.deadlineYear = deadlineYear
+        this.deadlineMonth = deadlineMonth
+        this.deadlineDay = deadlineDay
         this.id = -1
     }
 
-    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, taskCreatedAt: String, deadlineDate: String, id: Long) {
+    constructor(taskName: String, user: String, taskDescription: String, taskStatus: String, deadlineYear: String, deadlineMonth: String, deadlineDay: String, id: Long) {
         this.taskName = taskName
         this.user = user
         this.taskDescription = taskDescription
         this.taskStatus = taskStatus
-        this.taskCreatedAt = taskCreatedAt
-        this.deadlineDate = deadlineDate
+        this.deadlineYear = deadlineYear
+        this.deadlineMonth = deadlineMonth
+        this.deadlineDay = deadlineDay
         this.id = id
     }
 
     override fun toString(): String {
-        return "Task(taskName='$taskName', user='$user', taskDescription='$taskDescription', taskStatus='$taskStatus', taskCreatedAt=$taskCreatedAt, deadlineDate=$deadlineDate, id=$id)"
+        return "Task(taskName='$taskName', user='$user', taskDescription='$taskDescription', taskStatus='$taskStatus', deadlineYear=$deadlineYear, deadlineMonth=$deadlineMonth, deadlineDay=$deadlineDay, id=$id)"
     }
 
 }

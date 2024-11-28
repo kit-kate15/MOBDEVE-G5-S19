@@ -60,12 +60,12 @@
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_edit_button.xml.flat",
-        "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_edit_button.xml"
-    },
-    {
         "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_button_curve_orange.xml.flat",
         "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\button_curve_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-debug-54:\\drawable_ic_edit_button.xml.flat",
+        "source": "C:\\Users\\jonat\\.gradle\\daemon\\8.7\\com.mobdeve.s19.group5.mco.main.app-main-56:\\drawable\\ic_edit_button.xml"
     },
     {
         "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_add_tasks.xml.flat",

@@ -1,6 +1,10 @@
 R_DEF: Internal format may change without notice
 local
+array array_date_day
+array array_date_month
+array array_date_year
 color black
+color gray
 color green_button
 color max_red
 color min_red
@@ -46,7 +50,10 @@ id checkIb
 id dashboardLl
 id dateTextTv
 id deadlineDateEv
+id deadlineDaySp
+id deadlineMonthSp
 id deadlineTv
+id deadlineYearSp
 id descriptionHeaderTv
 id descriptionTextTv
 id editIb

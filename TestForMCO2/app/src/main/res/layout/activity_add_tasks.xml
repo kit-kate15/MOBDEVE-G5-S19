@@ -60,6 +60,42 @@
         android:hint="@string/enter_date"
         android:textSize="24sp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/deadlineMonthSp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/gray"
+            android:entries="@array/array_date_month"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:id="@+id/deadlineDaySp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/gray"
+            android:entries="@array/array_date_day"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:padding="20dp"/>
+
+        <Spinner
+            android:id="@+id/deadlineYearSp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/gray"
+            android:entries="@array/array_date_year"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+
     <EditText
         android:id="@+id/textDescriptionEv"
         android:layout_width="match_parent"

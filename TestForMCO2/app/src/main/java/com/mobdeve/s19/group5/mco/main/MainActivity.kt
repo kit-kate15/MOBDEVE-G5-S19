@@ -47,11 +47,11 @@ class MainActivity : ComponentActivity() {
                     "User1",
                     data.getStringExtra("TASK_DESC_KEY").toString(),
                     "Pending",
-                    data.getStringExtra("TASK_CREATED_AT_KEY").toString(),
-                    data.getStringExtra("TASK_DEADLINE_KEY").toString(),
+                    data.getStringExtra("TASK_DEADLINE_YEAR_KEY").toString(),
+                    data.getStringExtra("TASK_DEADLINE_MONTH_KEY").toString(),
+                    data.getStringExtra("TASK_DEADLINE_DAY_KEY").toString(),
                     data.getLongExtra("TASK_ID_KEY", -1)
                 )
-
                 Log.d("ResultsFromAddTask", "Task: $tempTask")
                 Log.d("ResultsFromAddTask", "ResultCode: ${result.resultCode}")
                 when(result.resultCode) {
