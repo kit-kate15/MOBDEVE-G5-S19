@@ -4,7 +4,7 @@
             "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-52:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\7c918d2992aa35e1faad0db698516aa1\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/josh/.gradle/caches/transforms-4/7c918d2992aa35e1faad0db698516aa1/transformed/appcompat-1.7.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

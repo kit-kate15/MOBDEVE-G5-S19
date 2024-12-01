@@ -20,10 +20,12 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
 
     override fun onCreate(db: SQLiteDatabase) {
         db.execSQL(DbReferences.CREATE_TABLE_STATEMENT)
+        db.execSQL(DbReferences.CREATE_FLASHCARDS_TABLE)
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         db.execSQL(DbReferences.DROP_TABLE_STATEMENT)
+        db.execSQL(DbReferences.DROP_FLASHCARDS_TABLE_STATEMENT)
         onCreate(db)
     }
 
@@ -33,10 +35,10 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
     fun getAllTasks(user: String): ArrayList<Task> {
         val tasks = ArrayList<Task>()
         val db = readableDatabase
-        val cursor: Cursor = db.rawQuery("SELECT * FROM ${DbReferences.TABLE_NAME} WHERE ${DbReferences.USER} = '$user'", null)
+        val cursor: Cursor = db.rawQuery("SELECT * FROM ${DbReferences.TASKS_TABLE_NAME} WHERE ${DbReferences.USER} = '$user'", null)
         if (cursor.moveToFirst()) {
             do {
-                val id = cursor.getLong(cursor.getColumnIndex(DbReferences._ID))
+                val id = cursor.getLong(cursor.getColumnIndex(DbReferences.TASK_ID))
                 val taskName = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_NAME))
                 val taskDescription = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_DESCRIPTION))
                 val taskStatus = cursor.getString(cursor.getColumnIndex(DbReferences.TASK_STATUS))
@@ -64,7 +66,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         values.put(DbReferences.TASK_DEADLINE_YEAR, task.deadlineYear)
         values.put(DbReferences.TASK_DEADLINE_MONTH, task.deadlineMonth)
         values.put(DbReferences.TASK_DEADLINE_DAY, task.deadlineDay)
-        val id = db.insert(DbReferences.TABLE_NAME, null, values)
+        val id = db.insert(DbReferences.TASKS_TABLE_NAME, null, values)
         db.close()
         return id
     }
@@ -79,28 +81,78 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         values.put(DbReferences.TASK_DEADLINE_YEAR, task.deadlineYear)
         values.put(DbReferences.TASK_DEADLINE_MONTH, task.deadlineMonth)
         values.put(DbReferences.TASK_DEADLINE_DAY, task.deadlineDay)
-        val updatedRows = db.update(DbReferences.TABLE_NAME, values, "${DbReferences._ID} = ?", arrayOf(task.id.toString()))
+        val updatedRows = db.update(DbReferences.TASKS_TABLE_NAME, values, "${DbReferences.TASK_ID} = ?", arrayOf(task.id.toString()))
         db.close()
         return updatedRows
     }
 
     fun deleteTask(task: Task): Int {
         val db = writableDatabase
-        val deletedRows = db.delete(DbReferences.TABLE_NAME, "${DbReferences._ID} = ?", arrayOf(task.id.toString()))
+        val deletedRows = db.delete(DbReferences.TASKS_TABLE_NAME, "${DbReferences.TASK_ID} = ?", arrayOf(task.id.toString()))
         db.close()
         return deletedRows
     }
 
+    // Flashcard CRUD Functions
+    // add flashcard
+    fun addFlashcard(flashcard: Flashcard): Long {
+        val db = writableDatabase
+        val values = ContentValues()
+        values.put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
+        values.put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
+        val id = db.insert(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, null, values)
+        db.close()
+        return id
+    }
+
+    // get all flashcards
+    @RequiresApi(Build.VERSION_CODES.O)
+    @SuppressLint("Range")
+    fun getAllFlashcards(): ArrayList<Flashcard> {
+        val flashcards = ArrayList<Flashcard>()
+        val db = readableDatabase
+        val cursor: Cursor =
+            db.rawQuery("SELECT * FROM ${DbReferences.FLASHCARDS_TASKS_TABLE_NAME}", null)
+        if (cursor.moveToFirst()) {
+            do {
+                val id = cursor.getLong(cursor.getColumnIndex(DbReferences.FLASHCARD_ID))
+                val question =
+                    cursor.getString(cursor.getColumnIndex(DbReferences.FLASHCARD_QUESTION))
+                val answer = cursor.getString(cursor.getColumnIndex(DbReferences.FLASHCARD_ANSWER))
+                flashcards.add(Flashcard(question, answer, id))
+            } while (cursor.moveToNext())
+        }
+        cursor.close()
+        db.close()
+        return flashcards
+    }
+
+    // update flashcards
+    fun updateFlashcard(flashcard: Flashcard): Int {
+        val db = writableDatabase
+        val values = ContentValues()
+        values.put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
+        values.put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
+        val updatedRows = db.update(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, values, "${DbReferences.FLASHCARD_ID} = ?", arrayOf(flashcard.id.toString()))
+        db.close()
+        return updatedRows
+    }
 
 
-
+    // delete flashcards
+    fun deleteFlashcard(flashcard: Flashcard): Int {
+        val db = writableDatabase
+        val deletedRows = db.delete(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, "${DbReferences.FLASHCARD_ID} = ?", arrayOf(flashcard.id.toString()))
+        db.close()
+        return deletedRows
+    }
 
     private object DbReferences {
         const val DATABASE_VERSION = 1
         const val DATABASE_NAME = "my_database.db"
 
-        const val TABLE_NAME = "tasks"
-        const val _ID = "id"
+        const val TASKS_TABLE_NAME = "tasks"
+        const val TASK_ID = "id"
         const val TASK_NAME = "task_name"
         const val USER = "user"
         const val TASK_DESCRIPTION = "task_description"
@@ -109,10 +161,16 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         const val TASK_DEADLINE_MONTH = "task_deadline_month"
         const val TASK_DEADLINE_DAY = "task_deadline_day"
 
+        // Flashcards Table
+        const val FLASHCARDS_TASKS_TABLE_NAME = "flashcards"
+        const val FLASHCARD_ID = "id"
+        const val FLASHCARD_QUESTION = "question"
+        const val FLASHCARD_ANSWER = "answer"
+
 
         const val CREATE_TABLE_STATEMENT = """
-            CREATE TABLE $TABLE_NAME (
-                $_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            CREATE TABLE $TASKS_TABLE_NAME (
+                $TASK_ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 $TASK_NAME TEXT,
                 $USER TEXT,
                 $TASK_DESCRIPTION TEXT,
@@ -123,7 +181,16 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
             )
         """
 
-        const val DROP_TABLE_STATEMENT = "DROP TABLE IF EXISTS $TABLE_NAME"
+        const val CREATE_FLASHCARDS_TABLE = """
+        CREATE TABLE $FLASHCARDS_TASKS_TABLE_NAME (
+            $FLASHCARD_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            $FLASHCARD_QUESTION TEXT,
+            $FLASHCARD_ANSWER TEXT
+        )
+    """
+
+        const val DROP_TABLE_STATEMENT = "DROP TABLE IF EXISTS $TASKS_TABLE_NAME"
+        const val DROP_FLASHCARDS_TABLE_STATEMENT = "DROP TABLE IF EXISTS $FLASHCARDS_TASKS_TABLE_NAME"
     }
 
     companion object {
