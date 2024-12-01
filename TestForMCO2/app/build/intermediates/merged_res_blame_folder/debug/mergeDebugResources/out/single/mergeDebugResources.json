@@ -72,6 +72,10 @@
         "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/drawable/ic_settings.xml"
     },
     {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_activity_flashcards.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/activity_flashcards.xml"
+    },
+    {
         "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
     },
@@ -106,6 +110,14 @@
     {
         "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_add_flashcard_activity.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/add_flashcard_activity.xml"
+    },
+    {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/layout_flashcard_item.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-56:/layout/flashcard_item.xml"
     },
     {
         "merged": "com.mobdeve.s19.group5.mco.main.app-debug-54:/mipmap-hdpi_ic_launcher.webp.flat",

@@ -39,6 +39,7 @@ drawable tasks_shape
 drawable view_task_bg
 id TasksLl
 id TitleTv
+id addFlashcardButton
 id addTasksBtn
 id btn_container
 id btn_reset
@@ -59,6 +60,11 @@ id descriptionTextTv
 id editIb
 id emailTv
 id flashCardBtn
+id flashcardAnswerEditText
+id flashcardQuestionEditText
+id flashcardRecyclerView
+id flashcard_answer
+id flashcard_question
 id fltimer
 id footericonsLl
 id goToBtn
@@ -78,6 +84,7 @@ id notesBtn
 id passwordText
 id pomodoroBtn
 id progress_bar
+id saveFlashcardButton
 id settingsBtn
 id slideLl
 id submitBtn
@@ -90,10 +97,13 @@ id textDescriptionEv
 id tv_timer
 id welcomeTv
 layout activity_add_tasks
+layout activity_flashcards
 layout activity_login
 layout activity_main
 layout activity_pomodoro
 layout activity_view_tasks
+layout add_flashcard_activity
+layout flashcard_item
 layout item_tasks_layout
 mipmap ic_launcher
 mipmap ic_launcher_round

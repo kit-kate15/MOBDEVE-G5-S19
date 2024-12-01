@@ -45,6 +45,10 @@
             android:name="com.mobdeve.s19.group5.mco.main.ViewTaskActivity"
             android:theme="@style/PopupTheme" />
         <activity
+            android:name="com.mobdeve.s19.group5.mco.main.FlashcardsActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name="com.mobdeve.s19.group5.mco.main.AddFlashcardActivity" />
+        <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
         <activity

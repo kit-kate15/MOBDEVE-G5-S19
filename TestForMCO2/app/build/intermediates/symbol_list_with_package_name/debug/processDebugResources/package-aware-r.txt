@@ -1035,6 +1035,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addFlashcardButton
 id addTasksBtn
 id alertTitle
 id aligned
@@ -1136,6 +1137,11 @@ id end
 id expand_activities_button
 id expanded_menu
 id flashCardBtn
+id flashcardAnswerEditText
+id flashcardQuestionEditText
+id flashcardRecyclerView
+id flashcard_answer
+id flashcard_question
 id flip
 id fltimer
 id footericonsLl
@@ -1236,6 +1242,7 @@ id reverseSawtooth
 id right
 id right_icon
 id right_side
+id saveFlashcardButton
 id sawtooth
 id screen
 id scrollIndicatorDown
@@ -1383,11 +1390,14 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_tasks
+layout activity_flashcards
 layout activity_login
 layout activity_main
 layout activity_pomodoro
 layout activity_view_tasks
+layout add_flashcard_activity
 layout custom_dialog
+layout flashcard_item
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_tasks_layout

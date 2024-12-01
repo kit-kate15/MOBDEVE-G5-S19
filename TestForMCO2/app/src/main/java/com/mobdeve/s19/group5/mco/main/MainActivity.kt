@@ -81,7 +81,7 @@ class MainActivity : ComponentActivity() {
         //enableEdgeToEdge()
         data = DataHelper.loadTaskData()
         val viewBinding: ActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(viewBinding.root);
+        setContentView(viewBinding.root)
 
         val intent = Intent(applicationContext, LoginActivity::class.java)
         this.startActivity(intent)
@@ -92,7 +92,13 @@ class MainActivity : ComponentActivity() {
             startActivity(pomIntent)
         }
 
-        this.recyclerView = viewBinding.tasksRv;
+        val flashCardButton = findViewById<ImageButton>(R.id.flashCardBtn)
+        flashCardButton.setOnClickListener{
+            val flashIntent = Intent(applicationContext, FlashcardsActivity::class.java)
+            startActivity(flashIntent)
+        }
+
+        this.recyclerView = viewBinding.tasksRv
         this.recyclerView.layoutManager = LinearLayoutManager(this)
 
         executorService.execute(Runnable {

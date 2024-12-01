@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.net.Uri
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -21,12 +22,15 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
     override fun onCreate(db: SQLiteDatabase) {
         db.execSQL(DbReferences.CREATE_TABLE_STATEMENT)
         db.execSQL(DbReferences.CREATE_FLASHCARDS_TABLE)
+        Log.d("DbHelper", "Tables created successfully")
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         db.execSQL(DbReferences.DROP_TABLE_STATEMENT)
         db.execSQL(DbReferences.DROP_FLASHCARDS_TABLE_STATEMENT)
         onCreate(db)
+        Log.d("DbHelper", "Database upgraded and tables recreated")
+
     }
 
     //get all tasks from user
@@ -148,7 +152,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
     }
 
     private object DbReferences {
-        const val DATABASE_VERSION = 1
+        const val DATABASE_VERSION = 2
         const val DATABASE_NAME = "my_database.db"
 
         const val TASKS_TABLE_NAME = "tasks"
