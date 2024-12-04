@@ -2,9 +2,9 @@
     <string name="app_name">Tomato List</string>
     <string name="hello_john_doe">Hello John Doe!</string>
     <string name="welcome_back">Dashboard</string>
-    <string name="notes">Notes</string>
-    <string name="card_text">Looks like there\'s a few things that you need to finish</string>
-    <string name="button_card_text">Go To notes</string>
+    <string name="notes">Study Time!</string>
+    <string name="card_text">Looks like there\'s a few things that you need to finish. Are you ready to work on them?</string>
+    <string name="button_card_text">Go To Pomodoro Timer</string>
     <string name="tasks">Tasks</string>
     <string name="login_title">Tomato List</string>
     <string name="email_placeholder">Email</string>

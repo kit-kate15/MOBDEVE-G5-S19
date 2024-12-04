@@ -91,6 +91,10 @@ class MainActivity : ComponentActivity() {
             val pomIntent = Intent(applicationContext, PomodoroActivity::class.java)
             startActivity(pomIntent)
         }
+        viewBinding.goToBtn.setOnClickListener() {
+            val gotoIntent = Intent(this, PomodoroActivity::class.java)
+            startActivity(gotoIntent)
+        }
 
         this.recyclerView = viewBinding.tasksRv;
         this.recyclerView.layoutManager = LinearLayoutManager(this)
