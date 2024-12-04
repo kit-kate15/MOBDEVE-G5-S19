@@ -6,15 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <ImageView
         android:id="@+id/TitleTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/tomatolistappicon"
         android:text="@string/login_title"
-        android:textColor="#000000"
-        android:textSize="60sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +22,7 @@
         android:id="@+id/emailTv"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
         android:hint="@string/email_placeholder"
         android:inputType="textEmailAddress"
@@ -64,12 +62,16 @@
         app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/googleSignInBtn"
+        android:id="@+id/google_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/loginBtn"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="60dp"
+        android:text="Text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
