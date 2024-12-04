@@ -194,15 +194,6 @@
             android:layout_margin="20dp"/>
 
         <ImageButton
-            android:id="@+id/notesBtn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="0"
-            android:backgroundTint="@android:color/transparent"
-            android:src="@drawable/ic_notes"
-            android:layout_margin="20dp"/>
-
-        <ImageButton
             android:id="@+id/pomodoroBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
