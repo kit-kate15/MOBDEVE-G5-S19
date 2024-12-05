@@ -68,11 +68,12 @@
     <color name="red">#B33030</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="tomatolistappicon_background">#BB6A20</color>
     <color name="white">#FFFFFFFF</color>
     <string name="add_tasks">Add Task</string>
-    <string name="app_name">TestForMCO2</string>
-    <string name="button_card_text">Go To notes</string>
-    <string name="card_text">Looks like there\'s a few things that you need to finish</string>
+    <string name="app_name">Tomato List</string>
+    <string name="button_card_text">Go To Pomodoro Timer</string>
+    <string name="card_text">Looks like there\'s a few things that you need to finish. Are you ready to work on them?</string>
     <string name="deadlineHeader">Deadline:</string>
     <string name="description">Description:</string>
     <string name="email_placeholder">Email</string>
@@ -80,7 +81,7 @@
     <string name="hello_john_doe">Hello John Doe!</string>
     <string name="login_button">Login</string>
     <string name="login_title">Tomato List</string>
-    <string name="notes">Notes</string>
+    <string name="notes">Study Time!</string>
     <string name="password_placeholder">Password</string>
     <string name="submit">Submit</string>
     <string name="task_title">Task Title</string>

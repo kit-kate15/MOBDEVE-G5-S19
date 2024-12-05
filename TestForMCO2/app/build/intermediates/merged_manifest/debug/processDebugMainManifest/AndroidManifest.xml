@@ -23,7 +23,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/tomatolistappicon_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TestForMCO2" >
@@ -41,6 +41,7 @@
         <activity android:name="com.mobdeve.s19.group5.mco.main.LoginActivity" />
         <activity android:name="com.mobdeve.s19.group5.mco.main.PomodoroActivity" />
         <activity android:name="com.mobdeve.s19.group5.mco.main.AddTaskActivity" />
+        <activity android:name="com.mobdeve.s19.group5.mco.main.CalendarViewActivity" />
         <activity
             android:name="com.mobdeve.s19.group5.mco.main.ViewTaskActivity"
             android:theme="@style/PopupTheme" />
@@ -50,6 +51,14 @@
         <activity
             android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

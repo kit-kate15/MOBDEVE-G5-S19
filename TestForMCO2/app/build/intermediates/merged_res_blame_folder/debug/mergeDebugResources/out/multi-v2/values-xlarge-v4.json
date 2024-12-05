@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-52:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-54:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\7c918d2992aa35e1faad0db698516aa1\\transformed\\appcompat-1.7.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-4\\617d4906e06427baac6357f75fc903f7\\transformed\\appcompat-1.7.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

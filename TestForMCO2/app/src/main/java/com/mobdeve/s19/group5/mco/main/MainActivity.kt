@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.provider.ContactsContract.Data
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageButton
@@ -16,7 +15,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import com.mobdeve.s19.group5.mco.main.ui.theme.TestForMCO2Theme
@@ -83,19 +81,31 @@ class MainActivity : ComponentActivity() {
         val viewBinding: ActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root);
 
+        //Login Activity Intent
         val intent = Intent(applicationContext, LoginActivity::class.java)
         this.startActivity(intent)
 
+        //Pomodoro Button Intent
         val pomodoroButton = findViewById<ImageButton>(R.id.pomodoroBtn)
         pomodoroButton.setOnClickListener {
             val pomIntent = Intent(applicationContext, PomodoroActivity::class.java)
             startActivity(pomIntent)
         }
+
+        //Calendar
+        val calendarButton = findViewById<ImageButton>(R.id.calendarBtn)
+        calendarButton.setOnClickListener {
+            val calendarIntent = Intent(this, CalendarViewActivity::class.java)
+            startActivity(calendarIntent)
+        }
+
+        //GoTo Button Intent
         viewBinding.goToBtn.setOnClickListener() {
             val gotoIntent = Intent(this, PomodoroActivity::class.java)
             startActivity(gotoIntent)
         }
 
+        //RecycleView Setup
         this.recyclerView = viewBinding.tasksRv;
         this.recyclerView.layoutManager = LinearLayoutManager(this)
 
@@ -111,6 +121,7 @@ class MainActivity : ComponentActivity() {
             })
         })
 
+        //Add Task Button Intent
         viewBinding.addTasksBtn.setOnClickListener {
             val taskIntent = Intent(this, AddTaskActivity::class.java)
             newTaskResultLauncher.launch(taskIntent)

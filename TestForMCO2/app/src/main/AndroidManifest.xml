@@ -27,6 +27,7 @@
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".PomodoroActivity"></activity>
         <activity android:name=".AddTaskActivity"></activity>
+        <activity android:name=".CalendarViewActivity"></activity>
         <activity android:name=".ViewTaskActivity"
             android:theme="@style/PopupTheme"></activity>
     </application>
