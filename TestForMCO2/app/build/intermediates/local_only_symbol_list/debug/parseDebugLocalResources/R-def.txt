@@ -15,6 +15,7 @@ color purple_700
 color red
 color teal_200
 color teal_700
+color tomatolistappicon_background
 color white
 drawable button_bg
 drawable button_curve_orange
@@ -36,6 +37,7 @@ drawable ic_pomodoro
 drawable ic_settings
 drawable red_progressbar_background
 drawable tasks_shape
+drawable tomatolist
 drawable view_task_bg
 id TasksLl
 id TitleTv
@@ -62,6 +64,7 @@ id flashCardBtn
 id fltimer
 id footericonsLl
 id goToBtn
+id google_button
 id greetingsLl
 id greetingsTv
 id headerLl
@@ -97,6 +100,9 @@ layout activity_view_tasks
 layout item_tasks_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap tomatolistappicon
+mipmap tomatolistappicon_foreground
+mipmap tomatolistappicon_round
 string add_tasks
 string app_name
 string button_card_text
@@ -105,11 +111,17 @@ string deadlineHeader
 string description
 string email_placeholder
 string enter_date
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_john_doe
 string login_button
 string login_title
 string notes
 string password_placeholder
+string project_id
 string submit
 string task_title
 string tasks

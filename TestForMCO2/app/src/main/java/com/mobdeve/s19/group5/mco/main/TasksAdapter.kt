@@ -7,7 +7,9 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import android.content.Intent
+import android.util.Log
 import androidx.activity.ComponentActivity
+import com.google.firebase.firestore.FirebaseFirestore
 import com.mobdeve.s19.group5.mco.main.databinding.ItemTasksLayoutBinding
 import java.util.ArrayList
 import java.util.concurrent.ExecutorService
@@ -75,6 +77,14 @@ class TasksAdapter(private val data: ArrayList<Task>, private val activity: Main
                     notifyDataSetChanged()
                 }
             })
+            val firebaseDb = FirebaseFirestore.getInstance()
+
+            firebaseDb.collection("Tasks").document(data[tasksViewHolder.bindingAdapterPosition].id.toString())
+                .delete()
+                .addOnSuccessListener {
+                    Log.d("TAG", "DocumentSnapshot successfully deleted!")
+                }
+                .addOnFailureListener { e -> Log.w("TAG", "Error deleting document", e) }
         }
         return tasksViewHolder
     }

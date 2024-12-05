@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-52:/values-v22/values-v22.xml",
+            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-61:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\7c918d2992aa35e1faad0db698516aa1\\transformed\\appcompat-1.7.0\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\d816c18abddc9987627e5d8bdac678f3\\transformed\\appcompat-1.7.0\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

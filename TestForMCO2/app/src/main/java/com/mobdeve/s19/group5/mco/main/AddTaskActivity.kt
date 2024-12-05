@@ -13,6 +13,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.annotation.RequiresApi
+import com.google.firebase.Firebase
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.SetOptions
+import com.google.firebase.firestore.firestore
 import com.mobdeve.s19.group5.mco.main.databinding.ActivityAddTasksBinding
 import org.w3c.dom.Text
 import java.util.concurrent.ExecutorService
@@ -30,6 +34,8 @@ class AddTaskActivity : ComponentActivity() {
 
     private lateinit var myDbHelper: MyDbHelper
     private val executorService: ExecutorService = Executors.newSingleThreadExecutor()
+    private lateinit var firebaseDb: FirebaseFirestore
+    private lateinit var firebaseId: String
 
     private var tempTask: Task? = null
     private var viewHolderPosition: Int = -1
@@ -49,6 +55,8 @@ class AddTaskActivity : ComponentActivity() {
         this.deadlineYearSp = viewBinding.deadlineYearSp
         this.deadlineMonthSp = viewBinding.deadlineMonthSp
         this.deadlineDaySp = viewBinding.deadlineDaySp
+
+        firebaseDb = Firebase.firestore
 
         val intent = intent
         Log.d("Id", "Id: ${intent.getLongExtra("TASK_ID_KEY", -1)}")
@@ -85,19 +93,30 @@ class AddTaskActivity : ComponentActivity() {
                if(tempTask != null) {
                    executorService.execute(Runnable {
                        myDbHelper = MyDbHelper.getInstance(this)
-                       myDbHelper.updateTask(
-                            Task(
-                                 this.taskTitleEv.text.toString(),
-                                 "User1",
-                                 this.descriptionEv.text.toString(),
-                                 "Pending",
-                                //fix dates here
-                                this.deadlineYearSp.selectedItem.toString(),
-                                this.deadlineMonthSp.selectedItem.toString(),
-                                this.deadlineDaySp.selectedItem.toString(),
-                                 tempTask!!.id
-                            )
+                       val tempTask = Task(
+                           this.taskTitleEv.text.toString(),
+                           "User1",
+                           this.descriptionEv.text.toString(),
+                           "Pending",
+                           //fix dates here
+                           this.deadlineYearSp.selectedItem.toString(),
+                           this.deadlineMonthSp.selectedItem.toString(),
+                           this.deadlineDaySp.selectedItem.toString(),
+                           tempTask!!.id
                        )
+                       val taskHash = hashMapOf(
+                            "taskName" to tempTask.taskName,
+                            "user" to tempTask.user,
+                            "taskDescription" to tempTask.taskDescription,
+                            "taskStatus" to tempTask.taskStatus,
+                            "deadlineYear" to tempTask.deadlineYear,
+                            "deadlineMonth" to tempTask.deadlineMonth,
+                            "deadlineDay" to tempTask.deadlineDay
+                       )
+                       myDbHelper.updateTask(tempTask)
+                       firebaseDb.collection("Tasks").document(tempTask.id.toString()).set(taskHash, SetOptions.merge())
+                           .addOnSuccessListener { Log.d("AddTaskActivity", "DocumentSnapshot successfully written!") }
+                           .addOnFailureListener { e -> Log.w("AddTaskActivity", "Error writing document", e) }
                        runOnUiThread(Runnable {
                            val editIntent = Intent()
                            editIntent.putExtra("TASK_NAME_KEY", this.taskTitleEv.text.toString())
@@ -112,19 +131,34 @@ class AddTaskActivity : ComponentActivity() {
                        })
                    })
                } else {
+
                    executorService.execute(Runnable {
                        myDbHelper = MyDbHelper.getInstance(this)
-                       val id = myDbHelper.addTask(
-                           Task(
-                               this.taskTitleEv.text.toString(),
-                               "User1",
-                               this.descriptionEv.text.toString(),
-                               "Pending",
-                               this.deadlineYearSp.selectedItem.toString(),
-                               this.deadlineMonthSp.selectedItem.toString(),
-                               this.deadlineDaySp.selectedItem.toString()
-                           )
+                       val tempTask = Task(
+                           this.taskTitleEv.text.toString(),
+                           "User1",
+                           this.descriptionEv.text.toString(),
+                           "Pending",
+                           this.deadlineYearSp.selectedItem.toString(),
+                           this.deadlineMonthSp.selectedItem.toString(),
+                           this.deadlineDaySp.selectedItem.toString()
                        )
+                       val taskHash = hashMapOf(
+                           "taskName" to tempTask.taskName,
+                           "user" to tempTask.user,
+                           "taskDescription" to tempTask.taskDescription,
+                           "taskStatus" to tempTask.taskStatus,
+                           "deadlineYear" to tempTask.deadlineYear,
+                           "deadlineMonth" to tempTask.deadlineMonth,
+                           "deadlineDay" to tempTask.deadlineDay
+                       )
+                       Log.d("AddTaskActivity", "Attempting to add to firebase...");
+                       val id = myDbHelper.addTask(tempTask)
+                       firebaseDb.collection("Tasks").document(id.toString()).set(tempTask)
+                           .addOnSuccessListener {
+                               Log.d("AddTaskActivity", "DocumentSnapshot written with ID: $id")
+                           }
+                           .addOnFailureListener() { e -> Log.w("AddTaskActivity", "Error adding document", e) }
                        runOnUiThread(Runnable {
                            val addIntent = Intent()
                            addIntent.putExtra("TASK_NAME_KEY", this.taskTitleEv.text.toString())

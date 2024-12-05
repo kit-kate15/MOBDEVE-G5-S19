@@ -68,20 +68,27 @@
     <color name="red">#B33030</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="tomatolistappicon_background">#BB6A20</color>
     <color name="white">#FFFFFFFF</color>
     <string name="add_tasks">Add Task</string>
-    <string name="app_name">TestForMCO2</string>
-    <string name="button_card_text">Go To notes</string>
-    <string name="card_text">Looks like there\'s a few things that you need to finish</string>
+    <string name="app_name">Tomato List</string>
+    <string name="button_card_text">Go To Pomodoro Timer</string>
+    <string name="card_text">Looks like there\'s a few things that you need to finish. Are you ready to work on them?</string>
     <string name="deadlineHeader">Deadline:</string>
     <string name="description">Description:</string>
     <string name="email_placeholder">Email</string>
     <string name="enter_date">Deadline</string>
+    <string name="gcm_defaultSenderId" translatable="false">781197963271</string>
+    <string name="google_api_key" translatable="false">AIzaSyB1o-b-prJnFK3k2PH7joP2Qv9JbVB2vO8</string>
+    <string name="google_app_id" translatable="false">1:781197963271:android:ae9a57838ef229d0773aa2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB1o-b-prJnFK3k2PH7joP2Qv9JbVB2vO8</string>
+    <string name="google_storage_bucket" translatable="false">tomato-list.firebasestorage.app</string>
     <string name="hello_john_doe">Hello John Doe!</string>
     <string name="login_button">Login</string>
     <string name="login_title">Tomato List</string>
-    <string name="notes">Notes</string>
+    <string name="notes">Study Time!</string>
     <string name="password_placeholder">Password</string>
+    <string name="project_id" translatable="false">tomato-list</string>
     <string name="submit">Submit</string>
     <string name="task_title">Task Title</string>
     <string name="tasks">Tasks</string>
