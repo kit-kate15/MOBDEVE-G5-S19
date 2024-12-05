@@ -47,7 +47,9 @@
         <activity
             android:name="com.mobdeve.s19.group5.mco.main.FlashcardsActivity"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-        <activity android:name="com.mobdeve.s19.group5.mco.main.AddFlashcardActivity" />
+        <activity
+            android:name="com.mobdeve.s19.group5.mco.main.AddFlashcardActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] /Users/josh/.gradle/caches/transforms-4/e73e133ae85c67deb5da997e90cd8859/transformed/viewbinding-8.6.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/josh/.gradle/caches/transforms-4/cb0640113eb423dfbf0e1a80e9781954/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/josh/.gradle/caches/transforms-4/9c3f403f7f4a20d3810a62c1d2dcbcf0/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -78,8 +78,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/josh/.gra
 	xmlns:android
 		ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:5:5-34:19
-INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:5:5-34:19
+ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:5:5-35:19
+INJECTED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:5:5-35:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/josh/.gradle/caches/transforms-4/cb0640113eb423dfbf0e1a80e9781954/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/josh/.gradle/caches/transforms-4/cb0640113eb423dfbf0e1a80e9781954/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] /Users/josh/.gradle/caches/transforms-4/93ca7c74309532646301d1cf1f7041cf/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
@@ -165,7 +165,9 @@ ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProje
 	android:name
 		ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:31:19-53
 activity#com.mobdeve.s19.group5.mco.main.AddFlashcardActivity
-ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:33:9-58
+ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:33:9-34:73
+	android:theme
+		ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:34:13-71
 	android:name
 		ADDED from /Users/josh/Documents/COLLEGE/[4] YEAR 4/1 MOBDEVE/AndroidStudioProjects/MCO/TestForMCO2/app/src/main/AndroidManifest.xml:33:19-55
 uses-sdk

@@ -30,7 +30,8 @@
             android:theme="@style/PopupTheme"></activity>
         <activity android:name=".FlashcardsActivity"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar"></activity>
-        <activity android:name=".AddFlashcardActivity" />
+        <activity android:name=".AddFlashcardActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
     </application>
 
 </manifest>
