@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-52:/values-v23/values-v23.xml",
+            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-53:/values-v23/values-v23.xml",
             "map": [
+                {
+                    "source": "/Users/josh/.gradle/caches/transforms-4/0f1b0a20cd9bc166f391fe1ac8400241/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
+                    }
+                },
                 {
                     "source": "/Users/josh/.gradle/caches/transforms-4/7c918d2992aa35e1faad0db698516aa1/transformed/appcompat-1.7.0/res/values-v23/values-v23.xml",
                     "from": {

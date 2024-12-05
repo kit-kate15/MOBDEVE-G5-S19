@@ -14,6 +14,8 @@ class FlashcardsActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var addButton: Button
     private lateinit var dbHelper: MyDbHelper
+    private lateinit var adapter: FlashcardAdapter
+    private var flashcards: MutableList<Flashcard> = mutableListOf() // All flashcards list
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +29,12 @@ class FlashcardsActivity : AppCompatActivity() {
 
         // Set up RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this)
+
         loadFlashcards()
+
+        val unknownFlashcards = flashcards.filter { !it.isKnown }
+        adapter = FlashcardAdapter(unknownFlashcards.toMutableList(), dbHelper) // Use only unknown ones
+        recyclerView.adapter = adapter
 
         // Handle Add Flashcard button click
         addButton.setOnClickListener {
@@ -39,8 +46,6 @@ class FlashcardsActivity : AppCompatActivity() {
     // Load flashcards and set the adapter
     @RequiresApi(Build.VERSION_CODES.O)
     private fun loadFlashcards() {
-        val flashcards = dbHelper.getAllFlashcards()
-        val adapter = FlashcardAdapter(flashcards)
-        recyclerView.adapter = adapter
+        flashcards = dbHelper.getAllFlashcards().toMutableList()
     }
 }

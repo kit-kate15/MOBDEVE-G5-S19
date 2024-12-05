@@ -1,20 +1,64 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/flashcard_question"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Flashcard Question" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/flashcard_answer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Flashcard Answer" />-->
+<!--</LinearLayout>-->
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/flashcard"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:layout_height="200dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/flashcard_question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Flashcard Question" />
+    <FrameLayout
+        android:id="@+id/flashcard_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/flashcard_answer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Flashcard Answer" />
-</LinearLayout>
+        <!--Question-->
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Question"
+            android:textSize="20sp"
+            android:visibility="visible" />
 
+        <!--Answer-->
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Answer"
+            android:textSize="20sp"
+            android:visibility="gone" />
 
+        <Button
+            android:id="@+id/btn_mark_as_known"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="8dp"
+            android:text="Mark as Known" />
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

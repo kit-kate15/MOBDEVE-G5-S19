@@ -59,6 +59,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/josh/.grad
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/josh/.gradle/caches/transforms-4/5b861bd170f55ae298eb365a475b6276/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.4] /Users/josh/.gradle/caches/transforms-4/938ced1bb05f52647cf67289b3265756/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.7.4] /Users/josh/.gradle/caches/transforms-4/1edb490ac6ea6cbd9557d5ffb3d90fd0/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/josh/.gradle/caches/transforms-4/0f1b0a20cd9bc166f391fe1ac8400241/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/josh/.gradle/caches/transforms-4/99d49f9fb2dabb5423e98437a59c9cf2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/josh/.gradle/caches/transforms-4/126eb6b5598cd794313adb9ed098f07c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/josh/.gradle/caches/transforms-4/ae95cc3c2b7aa327d76c37c7f6201ecd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -284,6 +285,8 @@ MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.4] /Users/jos
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.4] /Users/josh/.gradle/caches/transforms-4/938ced1bb05f52647cf67289b3265756/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.7.4] /Users/josh/.gradle/caches/transforms-4/1edb490ac6ea6cbd9557d5ffb3d90fd0/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.7.4] /Users/josh/.gradle/caches/transforms-4/1edb490ac6ea6cbd9557d5ffb3d90fd0/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/josh/.gradle/caches/transforms-4/0f1b0a20cd9bc166f391fe1ac8400241/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/josh/.gradle/caches/transforms-4/0f1b0a20cd9bc166f391fe1ac8400241/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/josh/.gradle/caches/transforms-4/99d49f9fb2dabb5423e98437a59c9cf2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/josh/.gradle/caches/transforms-4/99d49f9fb2dabb5423e98437a59c9cf2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/josh/.gradle/caches/transforms-4/126eb6b5598cd794313adb9ed098f07c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44

@@ -134,7 +134,9 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
     // update flashcards
     fun updateFlashcard(flashcard: Flashcard): Int {
         val db = writableDatabase
-        val values = ContentValues()
+        val values = ContentValues().apply {
+            put("isKnown", if (flashcard.isKnown) 1 else 0)
+        }
         values.put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
         values.put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
         val updatedRows = db.update(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, values, "${DbReferences.FLASHCARD_ID} = ?", arrayOf(flashcard.id.toString()))

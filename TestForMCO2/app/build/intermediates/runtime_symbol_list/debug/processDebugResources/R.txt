@@ -120,6 +120,13 @@ int attr buttonStyle 0x7f040054
 int attr buttonStyleSmall 0x7f040055
 int attr buttonTint 0x7f040056
 int attr buttonTintMode 0x7f040057
+int attr cardBackgroundColor 0x7f04023b
+int attr cardCornerRadius 0x7f04023c
+int attr cardElevation 0x7f04023d
+int attr cardMaxElevation 0x7f04023e
+int attr cardPreventCornerOverlap 0x7f04023f
+int attr cardUseCompatPadding 0x7f040240
+int attr cardViewStyle 0x7f040241
 int attr carousel_backwardTransition 0x7f040058
 int attr carousel_emptyViewsBehavior 0x7f040059
 int attr carousel_firstView 0x7f04005a
@@ -175,6 +182,11 @@ int attr contentInsetLeft 0x7f04008b
 int attr contentInsetRight 0x7f04008c
 int attr contentInsetStart 0x7f04008d
 int attr contentInsetStartWithNavigation 0x7f04008e
+int attr contentPadding 0x7f040242
+int attr contentPaddingBottom 0x7f040243
+int attr contentPaddingLeft 0x7f040244
+int attr contentPaddingRight 0x7f040245
+int attr contentPaddingTop 0x7f040246
 int attr contrast 0x7f04008f
 int attr controlBackground 0x7f040090
 int attr crossfade 0x7f040091
@@ -649,6 +661,10 @@ int color button_material_dark 0x7f060028
 int color button_material_light 0x7f060029
 int color call_notification_answer_color 0x7f06002a
 int color call_notification_decline_color 0x7f06002b
+int color cardview_dark_background 0x7f060068
+int color cardview_light_background 0x7f060069
+int color cardview_shadow_end_color 0x7f06006a
+int color cardview_shadow_start_color 0x7f06006b
 int color dim_foreground_disabled_material_dark 0x7f06002c
 int color dim_foreground_disabled_material_light 0x7f06002d
 int color dim_foreground_material_dark 0x7f06002e
@@ -790,6 +806,9 @@ int dimen abc_text_size_subhead_material 0x7f07004d
 int dimen abc_text_size_subtitle_material_toolbar 0x7f07004e
 int dimen abc_text_size_title_material 0x7f07004f
 int dimen abc_text_size_title_material_toolbar 0x7f070050
+int dimen cardview_compat_inset_shadow 0x7f07007e
+int dimen cardview_default_elevation 0x7f07007f
+int dimen cardview_default_radius 0x7f070080
 int dimen compat_button_inset_horizontal_material 0x7f070051
 int dimen compat_button_inset_vertical_material 0x7f070052
 int dimen compat_button_padding_horizontal_material 0x7f070053
@@ -1063,6 +1082,7 @@ int id bounceBoth 0x7f09005e
 int id bounceEnd 0x7f09005f
 int id bounceStart 0x7f090060
 int id btn_container 0x7f090061
+int id btn_mark_as_known 0x7f09017e
 int id btn_reset 0x7f090062
 int id btn_start_pause 0x7f090063
 int id buttonPanel 0x7f090064
@@ -1136,11 +1156,11 @@ int id end 0x7f0900a7
 int id expand_activities_button 0x7f0900a8
 int id expanded_menu 0x7f0900a9
 int id flashCardBtn 0x7f0900aa
+int id flashcard 0x7f09017f
 int id flashcardAnswerEditText 0x7f0900ab
 int id flashcardQuestionEditText 0x7f0900ac
 int id flashcardRecyclerView 0x7f0900ad
-int id flashcard_answer 0x7f0900ae
-int id flashcard_question 0x7f0900af
+int id flashcard_container 0x7f090180
 int id flip 0x7f0900b0
 int id fltimer 0x7f0900b1
 int id footericonsLl 0x7f0900b2
@@ -1325,6 +1345,8 @@ int id topPanel 0x7f090164
 int id transitionToEnd 0x7f090165
 int id transitionToStart 0x7f090166
 int id triangle 0x7f090167
+int id tv_answer 0x7f090181
+int id tv_question 0x7f090182
 int id tv_timer 0x7f090168
 int id unchecked 0x7f090169
 int id uniform 0x7f09016a
@@ -1557,6 +1579,7 @@ int style Base_AlertDialog_AppCompat_Light 0x7f0f0006
 int style Base_Animation_AppCompat_Dialog 0x7f0f0007
 int style Base_Animation_AppCompat_DropDownUp 0x7f0f0008
 int style Base_Animation_AppCompat_Tooltip 0x7f0f0009
+int style Base_CardView 0x7f0f0165
 int style Base_DialogWindowTitle_AppCompat 0x7f0f000a
 int style Base_DialogWindowTitleBackground_AppCompat 0x7f0f000b
 int style Base_TextAppearance_AppCompat 0x7f0f000c
@@ -1708,6 +1731,9 @@ int style Base_Widget_AppCompat_TextView 0x7f0f009d
 int style Base_Widget_AppCompat_TextView_SpinnerItem 0x7f0f009e
 int style Base_Widget_AppCompat_Toolbar 0x7f0f009f
 int style Base_Widget_AppCompat_Toolbar_Button_Navigation 0x7f0f00a0
+int style CardView 0x7f0f0166
+int style CardView_Dark 0x7f0f0167
+int style CardView_Light 0x7f0f0168
 int style DialogWindowTheme 0x7f0f00a1
 int style EdgeToEdgeFloatingDialogTheme 0x7f0f00a2
 int style EdgeToEdgeFloatingDialogWindowTheme 0x7f0f00a3
@@ -2148,6 +2174,20 @@ int styleable ButtonBarLayout_allowStacking 0
 int[] styleable Capability { 0x7f0401a0, 0x7f0401bb }
 int styleable Capability_queryPatterns 0
 int styleable Capability_shortcutMatchRequired 1
+int[] styleable CardView { 0x0101013f, 0x01010140, 0x7f04023b, 0x7f04023c, 0x7f04023d, 0x7f04023e, 0x7f04023f, 0x7f040240, 0x7f040242, 0x7f040243, 0x7f040244, 0x7f040245, 0x7f040246 }
+int styleable CardView_android_minWidth 0
+int styleable CardView_android_minHeight 1
+int styleable CardView_cardBackgroundColor 2
+int styleable CardView_cardCornerRadius 3
+int styleable CardView_cardElevation 4
+int styleable CardView_cardMaxElevation 5
+int styleable CardView_cardPreventCornerOverlap 6
+int styleable CardView_cardUseCompatPadding 7
+int styleable CardView_contentPadding 8
+int styleable CardView_contentPaddingBottom 9
+int styleable CardView_contentPaddingLeft 10
+int styleable CardView_contentPaddingRight 11
+int styleable CardView_contentPaddingTop 12
 int[] styleable Carousel { 0x7f040058, 0x7f040059, 0x7f04005a, 0x7f04005b, 0x7f04005c, 0x7f04005d, 0x7f04005e, 0x7f04005f, 0x7f040060, 0x7f040061 }
 int styleable Carousel_carousel_backwardTransition 0
 int styleable Carousel_carousel_emptyViewsBehavior 1

@@ -42,6 +42,7 @@ id TitleTv
 id addFlashcardButton
 id addTasksBtn
 id btn_container
+id btn_mark_as_known
 id btn_reset
 id btn_start_pause
 id calendarBtn
@@ -60,11 +61,11 @@ id descriptionTextTv
 id editIb
 id emailTv
 id flashCardBtn
+id flashcard
 id flashcardAnswerEditText
 id flashcardQuestionEditText
 id flashcardRecyclerView
-id flashcard_answer
-id flashcard_question
+id flashcard_container
 id fltimer
 id footericonsLl
 id goToBtn
@@ -94,6 +95,8 @@ id tasksRv
 id tasksTextTl
 id tasksTv
 id textDescriptionEv
+id tv_answer
+id tv_question
 id tv_timer
 id welcomeTv
 layout activity_add_tasks
