@@ -15,7 +15,7 @@ import java.util.ArrayList
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-class TasksAdapter(private val data: ArrayList<Task>, private val activity: MainActivity, private val newTaskResultLauncher: ActivityResultLauncher<Intent>): Adapter<TasksViewHolder>() {
+class TasksAdapter(private val data: ArrayList<Task>, private val activity: ComponentActivity, private val newTaskResultLauncher: ActivityResultLauncher<Intent>): Adapter<TasksViewHolder>() {
 
     private lateinit var  myDbHelper: MyDbHelper
     private val executorService: ExecutorService = Executors.newSingleThreadExecutor()

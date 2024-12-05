@@ -53,6 +53,7 @@ id btn_delete_flashcard
 id btn_reset
 id btn_start_pause
 id calendarBtn
+id calendarView
 id cardTextTv
 id cardTitleTv
 id checkIb
@@ -98,6 +99,7 @@ id settingsBtn
 id slideLl
 id submitBtn
 id taskHeaderTv
+id taskListRv
 id taskTitleEv
 id tasksRv
 id tasksTextTl
@@ -108,6 +110,7 @@ id tv_question
 id tv_timer
 id welcomeTv
 layout activity_add_tasks
+layout activity_calendar_view
 layout activity_flashcards
 layout activity_login
 layout activity_main

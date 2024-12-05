@@ -1146,6 +1146,7 @@ id btn_start_pause
 id buttonPanel
 id cache_measures
 id calendarBtn
+id calendarView
 id callMeasure
 id cardTextTv
 id cardTitleTv
@@ -1388,6 +1389,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id taskHeaderTv
+id taskListRv
 id taskTitleEv
 id tasksRv
 id tasksTextTl
@@ -1475,6 +1477,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_tasks
+layout activity_calendar_view
 layout activity_flashcards
 layout activity_login
 layout activity_main

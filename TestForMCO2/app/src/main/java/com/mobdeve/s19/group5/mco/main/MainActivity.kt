@@ -95,6 +95,12 @@ class MainActivity : ComponentActivity() {
             val gotoIntent = Intent(this, PomodoroActivity::class.java)
             startActivity(gotoIntent)
         }
+        //Calendar
+        val calendarButton = findViewById<ImageButton>(R.id.calendarBtn)
+        calendarButton.setOnClickListener {
+            val calendarIntent = Intent(this, CalendarViewActivity::class.java)
+            startActivity(calendarIntent)
+        }
 
         this.recyclerView = viewBinding.tasksRv;
         this.recyclerView.layoutManager = LinearLayoutManager(this)

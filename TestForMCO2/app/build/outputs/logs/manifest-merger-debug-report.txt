@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\jonat\.gradle\caches\transforms-4\5c5f878b70b98152977849ab83f8e7b1\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\jonat\.gradle\caches\transforms-4\2d47aea417397cbbe05c7983d6a8835b\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\jonat\.gradle\caches\transforms-4\034b7afeaedddddd033e2de351c13377\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
@@ -106,8 +106,8 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\jonat\.gradle\c
 	xmlns:android
 		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:6:5-36:19
-INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:6:5-36:19
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:6:5-37:19
+INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:6:5-37:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\jonat\.gradle\caches\transforms-4\2d47aea417397cbbe05c7983d6a8835b\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\jonat\.gradle\caches\transforms-4\2d47aea417397cbbe05c7983d6a8835b\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\jonat\.gradle\caches\transforms-4\034b7afeaedddddd033e2de351c13377\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
@@ -210,24 +210,28 @@ activity#com.mobdeve.s19.group5.mco.main.AddTaskActivity
 ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:29:9-62
 	android:name
 		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:29:19-50
+activity#com.mobdeve.s19.group5.mco.main.CalendarViewActivity
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:30:9-67
+	android:name
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:30:19-55
 activity#com.mobdeve.s19.group5.mco.main.ViewTaskActivity
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:30:9-31:58
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:31:9-32:58
 	android:theme
-		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:31:13-46
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:32:13-46
 	android:name
-		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:30:19-51
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:31:19-51
 activity#com.mobdeve.s19.group5.mco.main.FlashcardsActivity
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:32:9-33:83
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:33:9-34:83
 	android:theme
-		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:33:13-71
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:34:13-71
 	android:name
-		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:32:19-53
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:33:19-53
 activity#com.mobdeve.s19.group5.mco.main.AddFlashcardActivity
-ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:34:9-35:73
+ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:35:9-36:73
 	android:theme
-		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:35:13-71
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:36:13-71
 	android:name
-		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:34:19-55
+		ADDED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml:35:19-55
 uses-sdk
 INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\ProgammingStuff\BigRepos\MOBDEVE-G5-S19\TestForMCO2\app\src\main\AndroidManifest.xml

@@ -45,6 +45,7 @@
         <activity android:name="com.mobdeve.s19.group5.mco.main.LoginActivity" />
         <activity android:name="com.mobdeve.s19.group5.mco.main.PomodoroActivity" />
         <activity android:name="com.mobdeve.s19.group5.mco.main.AddTaskActivity" />
+        <activity android:name="com.mobdeve.s19.group5.mco.main.CalendarViewActivity" />
         <activity
             android:name="com.mobdeve.s19.group5.mco.main.ViewTaskActivity"
             android:theme="@style/PopupTheme" />

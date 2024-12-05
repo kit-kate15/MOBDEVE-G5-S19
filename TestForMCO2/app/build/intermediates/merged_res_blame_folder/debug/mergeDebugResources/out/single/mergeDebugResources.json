@@ -236,6 +236,10 @@
         "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_calendar_view.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_calendar_view.xml"
+    },
+    {
         "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_launcher_foreground.xml"
     },
