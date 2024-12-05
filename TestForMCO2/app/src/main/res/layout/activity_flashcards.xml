@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="16dp" />
+        android:padding="16dp"
+        android:background="@color/cardview_dark_background"/>
 
     <!-- Button to add a new flashcard -->
     <Button

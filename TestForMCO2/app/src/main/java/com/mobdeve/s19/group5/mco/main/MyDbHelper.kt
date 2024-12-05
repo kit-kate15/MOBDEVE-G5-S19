@@ -101,9 +101,10 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
     // add flashcard
     fun addFlashcard(flashcard: Flashcard): Long {
         val db = writableDatabase
-        val values = ContentValues()
-        values.put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
-        values.put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
+        val values = ContentValues().apply{
+            put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
+            put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
+        }
         val id = db.insert(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, null, values)
         db.close()
         return id
@@ -134,9 +135,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
     // update flashcards
     fun updateFlashcard(flashcard: Flashcard): Int {
         val db = writableDatabase
-        val values = ContentValues().apply {
-            put("isKnown", if (flashcard.isKnown) 1 else 0)
-        }
+        val values = ContentValues()
         values.put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
         values.put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
         val updatedRows = db.update(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, values, "${DbReferences.FLASHCARD_ID} = ?", arrayOf(flashcard.id.toString()))
@@ -172,6 +171,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         const val FLASHCARD_ID = "id"
         const val FLASHCARD_QUESTION = "question"
         const val FLASHCARD_ANSWER = "answer"
+        const val FLASHCARD_IS_KNOWN = "isKnown"
 
 
         const val CREATE_TABLE_STATEMENT = """
@@ -191,7 +191,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         CREATE TABLE $FLASHCARDS_TASKS_TABLE_NAME (
             $FLASHCARD_ID INTEGER PRIMARY KEY AUTOINCREMENT,
             $FLASHCARD_QUESTION TEXT,
-            $FLASHCARD_ANSWER TEXT
+            $FLASHCARD_ANSWER TEXT,
         )
     """
 

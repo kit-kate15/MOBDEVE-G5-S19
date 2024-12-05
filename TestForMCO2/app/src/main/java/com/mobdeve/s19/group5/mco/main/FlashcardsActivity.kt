@@ -15,37 +15,48 @@ class FlashcardsActivity : AppCompatActivity() {
     private lateinit var addButton: Button
     private lateinit var dbHelper: MyDbHelper
     private lateinit var adapter: FlashcardAdapter
-    private var flashcards: MutableList<Flashcard> = mutableListOf() // All flashcards list
+    private var flashcards: MutableList<Flashcard> = mutableListOf()
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flashcards)
 
-        // Initialize components
+        // Initialize UI components
         recyclerView = findViewById(R.id.flashcardRecyclerView)
         addButton = findViewById(R.id.addFlashcardButton)
         dbHelper = MyDbHelper.getInstance(this)
 
         // Set up RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this)
+        val spacingInPixels = resources.getDimensionPixelSize(R.dimen.flashcard_spacing)
+        recyclerView.addItemDecoration(SpaceItemDecoration(spacingInPixels))
 
-        loadFlashcards()
+        // Load flashcards from the database
+        flashcards = dbHelper.getAllFlashcards()
 
-        val unknownFlashcards = flashcards.filter { !it.isKnown }
-        adapter = FlashcardAdapter(unknownFlashcards.toMutableList(), dbHelper) // Use only unknown ones
+        // Set up the adapter
+        adapter = FlashcardAdapter(flashcards, dbHelper)
         recyclerView.adapter = adapter
 
         // Handle Add Flashcard button click
         addButton.setOnClickListener {
-            val intent = Intent(this, AddFlashcardActivity::class.java)  // Launch an activity to add a flashcard
+            val intent = Intent(this, AddFlashcardActivity::class.java)
             startActivity(intent)
         }
     }
 
-    // Load flashcards and set the adapter
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun loadFlashcards() {
-        flashcards = dbHelper.getAllFlashcards().toMutableList()
+    override fun onResume() {
+        super.onResume()
+        refreshFlashcards()
+    }
+
+    // Refresh the flashcard list when the activity resumes
+    @RequiresApi(Build.VERSION_CODES.O)
+    private fun refreshFlashcards() {
+        flashcards.clear()
+        flashcards.addAll(dbHelper.getAllFlashcards())
+        adapter.notifyDataSetChanged() // Notify the adapter of data changes
     }
 }

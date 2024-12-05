@@ -822,6 +822,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen flashcard_spacing
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1083,7 +1084,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btn_container
-id btn_mark_as_known
+id btn_delete_flashcard
 id btn_reset
 id btn_start_pause
 id buttonPanel

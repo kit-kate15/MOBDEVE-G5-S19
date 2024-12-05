@@ -69,6 +69,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="flashcard_spacing">16dp</dimen>
     <string name="add_tasks">Add Task</string>
     <string name="app_name">TestForMCO2</string>
     <string name="button_card_text">Go To notes</string>

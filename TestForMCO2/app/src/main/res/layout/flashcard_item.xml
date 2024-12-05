@@ -53,12 +53,12 @@
             android:visibility="gone" />
 
         <Button
-            android:id="@+id/btn_mark_as_known"
+            android:id="@+id/btn_delete_flashcard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="8dp"
-            android:text="Mark as Known" />
+            android:text="Delete" />
     </FrameLayout>
 
 </androidx.cardview.widget.CardView>

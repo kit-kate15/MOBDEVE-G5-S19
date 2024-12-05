@@ -17,7 +17,7 @@ class FlashcardAdapter(
         val questionTextView: TextView = itemView.findViewById(R.id.tv_question)
         val answerTextView: TextView = itemView.findViewById(R.id.tv_answer)
         val container: FrameLayout = itemView.findViewById(R.id.flashcard_container)
-        val markAsKnownButton: Button = itemView.findViewById(R.id.btn_mark_as_known)
+        val deleteButton: Button = itemView.findViewById(R.id.btn_delete_flashcard)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FlashcardViewHolder {
@@ -27,6 +27,7 @@ class FlashcardAdapter(
 
     override fun onBindViewHolder(holder: FlashcardViewHolder, position: Int) {
         val flashcard = flashcards[position]
+
         holder.questionTextView.text = flashcard.question
         holder.answerTextView.text = flashcard.answer
 
@@ -38,13 +39,20 @@ class FlashcardAdapter(
             holder.answerTextView.visibility = if (isFlipped) View.VISIBLE else View.GONE
         }
 
-        holder.markAsKnownButton.setOnClickListener {
-            flashcard.isKnown = true
-            dbHelper.updateFlashcard(flashcard) // Update database
-            // Notify the RecyclerView to update
-            notifyItemChanged(position)
+        holder.deleteButton.setOnClickListener {
+            dbHelper.deleteFlashcard(flashcard)
             flashcards.removeAt(position)
+
+            notifyItemRemoved(position)
+            notifyItemRangeChanged(position, flashcards.size)
         }
+    }
+
+
+    fun updateFlashcards(newFlashcards: List<Flashcard>) {
+        flashcards.clear()
+        flashcards.addAll(newFlashcards)
+        notifyDataSetChanged() // Refresh the RecyclerView
     }
 
     override fun getItemCount(): Int = flashcards.size

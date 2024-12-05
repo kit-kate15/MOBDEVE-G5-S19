@@ -16,6 +16,7 @@ color red
 color teal_200
 color teal_700
 color white
+dimen flashcard_spacing
 drawable button_bg
 drawable button_curve_orange
 drawable button_style
@@ -42,7 +43,7 @@ id TitleTv
 id addFlashcardButton
 id addTasksBtn
 id btn_container
-id btn_mark_as_known
+id btn_delete_flashcard
 id btn_reset
 id btn_start_pause
 id calendarBtn
