@@ -171,8 +171,6 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         const val FLASHCARD_ID = "id"
         const val FLASHCARD_QUESTION = "question"
         const val FLASHCARD_ANSWER = "answer"
-        const val FLASHCARD_IS_KNOWN = "isKnown"
-
 
         const val CREATE_TABLE_STATEMENT = """
             CREATE TABLE $TASKS_TABLE_NAME (
@@ -191,7 +189,7 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         CREATE TABLE $FLASHCARDS_TASKS_TABLE_NAME (
             $FLASHCARD_ID INTEGER PRIMARY KEY AUTOINCREMENT,
             $FLASHCARD_QUESTION TEXT,
-            $FLASHCARD_ANSWER TEXT,
+            $FLASHCARD_ANSWER TEXT
         )
     """
 
