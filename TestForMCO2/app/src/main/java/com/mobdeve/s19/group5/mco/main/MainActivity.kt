@@ -115,6 +115,12 @@ class MainActivity : ComponentActivity() {
             val taskIntent = Intent(this, AddTaskActivity::class.java)
             newTaskResultLauncher.launch(taskIntent)
         }
+
+        val flashCardButton = findViewById<ImageButton>(R.id.flashCardBtn)
+        flashCardButton.setOnClickListener{
+            val flashIntent = Intent(applicationContext, FlashcardsActivity::class.java)
+            startActivity(flashIntent)
+        }
     }
 }
 

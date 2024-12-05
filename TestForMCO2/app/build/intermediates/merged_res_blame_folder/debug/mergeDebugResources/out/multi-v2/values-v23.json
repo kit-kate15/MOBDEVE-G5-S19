@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-61:/values-v23/values-v23.xml",
+            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-62:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\d816c18abddc9987627e5d8bdac678f3\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\4ad631e50a45a8561870f86a8909697b\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -12,6 +12,25 @@
                         "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\0258e2b92814a838fc50f9f05bf106f3\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
                     }
                 }
             ]

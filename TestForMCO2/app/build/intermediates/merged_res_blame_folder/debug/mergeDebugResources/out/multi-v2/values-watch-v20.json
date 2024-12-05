@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-61:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-62:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\4e9084d5dd8de1a7c2eb112118388781\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\95a22d41096152cd0ad7ab56b43a57d7\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\d816c18abddc9987627e5d8bdac678f3\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\4ad631e50a45a8561870f86a8909697b\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

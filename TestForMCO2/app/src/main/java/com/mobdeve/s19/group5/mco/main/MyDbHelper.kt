@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.net.Uri
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -20,11 +21,15 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
 
     override fun onCreate(db: SQLiteDatabase) {
         db.execSQL(DbReferences.CREATE_TABLE_STATEMENT)
+        db.execSQL(DbReferences.CREATE_FLASHCARDS_TABLE)
+        Log.d("DbHelper", "Tables created successfully")
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         db.execSQL(DbReferences.DROP_TABLE_STATEMENT)
+        db.execSQL(DbReferences.DROP_FLASHCARDS_TABLE_STATEMENT)
         onCreate(db)
+        Log.d("DbHelper", "Database upgraded and tables recreated")
     }
 
     //get all tasks from user
@@ -91,7 +96,60 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         return deletedRows
     }
 
+    // Flashcard CRUD Functions
+    // add flashcard
+    fun addFlashcard(flashcard: Flashcard): Long {
+        val db = writableDatabase
+        val values = ContentValues().apply{
+            put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
+            put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
+        }
+        val id = db.insert(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, null, values)
+        db.close()
+        return id
+    }
 
+    // get all flashcards
+    @RequiresApi(Build.VERSION_CODES.O)
+    @SuppressLint("Range")
+    fun getAllFlashcards(): ArrayList<Flashcard> {
+        val flashcards = ArrayList<Flashcard>()
+        val db = readableDatabase
+        val cursor: Cursor =
+            db.rawQuery("SELECT * FROM ${DbReferences.FLASHCARDS_TASKS_TABLE_NAME}", null)
+        if (cursor.moveToFirst()) {
+            do {
+                val id = cursor.getLong(cursor.getColumnIndex(DbReferences.FLASHCARD_ID))
+                val question =
+                    cursor.getString(cursor.getColumnIndex(DbReferences.FLASHCARD_QUESTION))
+                val answer = cursor.getString(cursor.getColumnIndex(DbReferences.FLASHCARD_ANSWER))
+                flashcards.add(Flashcard(question, answer, id))
+            } while (cursor.moveToNext())
+        }
+        cursor.close()
+        db.close()
+        return flashcards
+    }
+
+    // update flashcards
+    fun updateFlashcard(flashcard: Flashcard): Int {
+        val db = writableDatabase
+        val values = ContentValues()
+        values.put(DbReferences.FLASHCARD_QUESTION, flashcard.question)
+        values.put(DbReferences.FLASHCARD_ANSWER, flashcard.answer)
+        val updatedRows = db.update(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, values, "${DbReferences.FLASHCARD_ID} = ?", arrayOf(flashcard.id.toString()))
+        db.close()
+        return updatedRows
+    }
+
+
+    // delete flashcards
+    fun deleteFlashcard(flashcard: Flashcard): Int {
+        val db = writableDatabase
+        val deletedRows = db.delete(DbReferences.FLASHCARDS_TASKS_TABLE_NAME, "${DbReferences.FLASHCARD_ID} = ?", arrayOf(flashcard.id.toString()))
+        db.close()
+        return deletedRows
+    }
 
 
 
@@ -109,6 +167,11 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
         const val TASK_DEADLINE_MONTH = "task_deadline_month"
         const val TASK_DEADLINE_DAY = "task_deadline_day"
 
+        // Flashcards Table
+        const val FLASHCARDS_TASKS_TABLE_NAME = "flashcards"
+        const val FLASHCARD_ID = "id"
+        const val FLASHCARD_QUESTION = "question"
+        const val FLASHCARD_ANSWER = "answer"
 
         const val CREATE_TABLE_STATEMENT = """
             CREATE TABLE $TABLE_NAME (
@@ -123,7 +186,16 @@ class MyDbHelper private constructor(context: Context) : SQLiteOpenHelper(contex
             )
         """
 
+        const val CREATE_FLASHCARDS_TABLE = """
+        CREATE TABLE $FLASHCARDS_TASKS_TABLE_NAME (
+            $FLASHCARD_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            $FLASHCARD_QUESTION TEXT,
+            $FLASHCARD_ANSWER TEXT
+        )
+    """
+
         const val DROP_TABLE_STATEMENT = "DROP TABLE IF EXISTS $TABLE_NAME"
+        const val DROP_FLASHCARDS_TABLE_STATEMENT = "DROP TABLE IF EXISTS $FLASHCARDS_TASKS_TABLE_NAME"
     }
 
     companion object {

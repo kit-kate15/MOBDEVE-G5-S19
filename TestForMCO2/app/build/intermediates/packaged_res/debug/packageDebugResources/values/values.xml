@@ -57,6 +57,10 @@
         <item>2030</item>
     </string-array>
     <color name="black">#FF000000</color>
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
     <color name="gray">#FFE0E0E0</color>
     <color name="green_button">#2EB853</color>
     <color name="max_red">#D24545</color>
@@ -70,6 +74,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="tomatolistappicon_background">#BB6A20</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="flashcard_spacing">16dp</dimen>
     <string name="add_tasks">Add Task</string>
     <string name="app_name">Tomato List</string>
     <string name="button_card_text">Go To Pomodoro Timer</string>

@@ -1,238 +1,250 @@
 [
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-mdpi_tomatolistappicon_foreground.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-mdpi/tomatolistappicon_foreground.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/xml_data_extraction_rules.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/xml/data_extraction_rules.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-mdpi_tomatolistappicon_foreground.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-mdpi/tomatolistappicon_foreground.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_circle.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_circle.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxhdpi_tomatolistappicon_foreground.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxhdpi/tomatolistappicon_foreground.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-hdpi_tomatolistappicon_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-hdpi/tomatolistappicon_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxxhdpi_tomatolistappicon.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxxhdpi/tomatolistappicon.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xhdpi_tomatolistappicon_foreground.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xhdpi/tomatolistappicon_foreground.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_menu_foreground.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_menu_foreground.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxhdpi_tomatolistappicon.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxhdpi/tomatolistappicon.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_settings.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_settings.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_pomodoro.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_pomodoro.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_button_style.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/button_style.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_tasks_shape.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/tasks_shape.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-mdpi_tomatolistappicon.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-mdpi/tomatolistappicon.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_tomatolist.png.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/tomatolist.png"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-anydpi-v26_tomatolistappicon.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-anydpi-v26/tomatolistappicon.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-mdpi_tomatolistappicon.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-mdpi/tomatolistappicon.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/layout_activity_pomodoro.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/layout/activity_pomodoro.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_button_style.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/button_style.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xhdpi_tomatolistappicon_foreground.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xhdpi/tomatolistappicon_foreground.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-hdpi_tomatolistappicon_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-hdpi/tomatolistappicon_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_flashcards.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_flashcards.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/layout_activity_main.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/layout/activity_main.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_check_filled.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_check_filled.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/layout_activity_add_tasks.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/layout/activity_add_tasks.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_tomatolist.png.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/tomatolist.png"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xhdpi_tomatolistappicon_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xhdpi/tomatolistappicon_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxxhdpi_tomatolistappicon.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxxhdpi/tomatolistappicon.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_notes.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_notes.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_circular_progress.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/circular_progress.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_calendar.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_calendar.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_button_curve_orange.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/button_curve_orange.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_check_unfilled.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_check_unfilled.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_add_flashcard_activity.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/add_flashcard_activity.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_view_task_bg.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/view_task_bg.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_footer_shape.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/footer_shape.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/layout_activity_view_tasks.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/layout/activity_view_tasks.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-anydpi-v26_tomatolistappicon.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-anydpi-v26/tomatolistappicon.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-anydpi-v26_tomatolistappicon_round.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-anydpi-v26/tomatolistappicon_round.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxxhdpi_tomatolistappicon_foreground.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxxhdpi/tomatolistappicon_foreground.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_button_curve_orange.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/button_curve_orange.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xhdpi_tomatolistappicon.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xhdpi/tomatolistappicon.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_check_filled.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_check_filled.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_main.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_main.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxhdpi_tomatolistappicon_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxhdpi/tomatolistappicon_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-hdpi_tomatolistappicon_foreground.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-hdpi/tomatolistappicon_foreground.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/xml_backup_rules.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_curve.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/curve.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-hdpi_tomatolistappicon.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-hdpi/tomatolistappicon.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_edit_button.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_edit_button.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxxhdpi_tomatolistappicon_foreground.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxxhdpi/tomatolistappicon_foreground.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_button_bg.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/button_bg.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-mdpi_tomatolistappicon_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-mdpi/tomatolistappicon_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-hdpi_tomatolistappicon.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-hdpi/tomatolistappicon.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_red_progressbar_background.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/red_progressbar_background.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_menu_foreground.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_menu_foreground.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxxhdpi_tomatolistappicon_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxxhdpi/tomatolistappicon_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_flashcard_item.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/flashcard_item.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_flash_card.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_flash_card.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_curve.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/curve.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxhdpi_tomatolistappicon_foreground.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxhdpi/tomatolistappicon_foreground.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_circle.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_circle.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xhdpi_tomatolistappicon.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xhdpi/tomatolistappicon.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_login.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_login.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/layout_activity_login.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/layout/activity_login.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_tasks_shape.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/tasks_shape.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxxhdpi_tomatolistappicon_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxxhdpi/tomatolistappicon_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_settings.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_settings.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_circular_progress.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/circular_progress.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/xml_data_extraction_rules.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-mdpi_tomatolistappicon_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-mdpi/tomatolistappicon_round.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_footer_shape.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/footer_shape.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-hdpi_tomatolistappicon_foreground.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-hdpi/tomatolistappicon_foreground.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_pomodoro.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_pomodoro.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_item_tasks_layout.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/item_tasks_layout.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxhdpi_tomatolistappicon_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxhdpi/tomatolistappicon_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_add_tasks.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_add_tasks.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xhdpi_tomatolistappicon_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xhdpi/tomatolistappicon_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxhdpi_tomatolistappicon.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxhdpi/tomatolistappicon.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_red_progressbar_background.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/red_progressbar_background.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_flash_card.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_flash_card.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_check_unfilled.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_check_unfilled.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_launcher_background.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/xml_backup_rules.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/xml/backup_rules.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_notes.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_notes.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_ic_edit_button.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/ic_edit_button.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_view_task_bg.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/view_task_bg.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/layout_item_tasks_layout.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/layout/item_tasks_layout.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_view_tasks.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_view_tasks.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_calendar.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_calendar.xml"
     },
     {
-        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-63:/drawable_button_bg.xml.flat",
-        "source": "com.mobdeve.s19.group5.mco.main.app-main-65:/drawable/button_bg.xml"
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/mipmap-anydpi-v26_tomatolistappicon_round.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/mipmap-anydpi-v26/tomatolistappicon_round.xml"
+    },
+    {
+        "merged": "com.mobdeve.s19.group5.mco.main.app-debug-64:/layout_activity_pomodoro.xml.flat",
+        "source": "com.mobdeve.s19.group5.mco.main.app-main-66:/layout/activity_pomodoro.xml"
     }
 ]

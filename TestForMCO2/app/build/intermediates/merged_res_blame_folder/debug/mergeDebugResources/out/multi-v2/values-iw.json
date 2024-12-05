@@ -1,112 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-61:/values-iw/values-iw.xml",
+            "outputFile": "com.mobdeve.s19.group5.mco.main.app-mergeDebugResources-62:/values-iw/values-iw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\fc32892126884f7b9e946473a9f6cab0\\transformed\\browser-1.4.0\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,146,246,352",
-                        "endColumns": "90,99,105,101",
-                        "endOffsets": "141,241,347,449"
-                    },
-                    "to": {
-                        "startLines": "58,62,63,64",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5927,6289,6389,6495",
-                        "endColumns": "90,99,105,101",
-                        "endOffsets": "6013,6384,6490,6592"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\d816c18abddc9987627e5d8bdac678f3\\transformed\\appcompat-1.7.0\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,310,418,502,604,720,799,877,968,1062,1156,1250,1350,1443,1538,1631,1722,1814,1895,2000,2103,2201,2306,2408,2510,2664,2761",
-                        "endColumns": "104,99,107,83,101,115,78,77,90,93,93,93,99,92,94,92,90,91,80,104,102,97,104,101,101,153,96,81",
-                        "endOffsets": "205,305,413,497,599,715,794,872,963,1057,1151,1245,1345,1438,1533,1626,1717,1809,1890,1995,2098,2196,2301,2403,2505,2659,2756,2838"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,128",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,310,418,502,604,720,799,877,968,1062,1156,1250,1350,1443,1538,1631,1722,1814,1895,2000,2103,2201,2306,2408,2510,2664,13173",
-                        "endColumns": "104,99,107,83,101,115,78,77,90,93,93,93,99,92,94,92,90,91,80,104,102,97,104,101,101,153,96,81",
-                        "endOffsets": "205,305,413,497,599,715,794,872,963,1057,1151,1245,1345,1438,1533,1626,1717,1809,1890,1995,2098,2196,2301,2403,2505,2659,2756,13250"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\59bfd5e117d65a90cc23a0df0ddf2367\\transformed\\core-1.13.1\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,149,251,348,445,546,646,752",
-                        "endColumns": "93,101,96,96,100,99,105,100",
-                        "endOffsets": "144,246,343,440,541,641,747,848"
-                    },
-                    "to": {
-                        "startLines": "31,32,33,34,35,36,37,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "2986,3080,3182,3279,3376,3477,3577,13552",
-                        "endColumns": "93,101,96,96,100,99,105,100",
-                        "endOffsets": "3075,3177,3274,3371,3472,3572,3678,13648"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\7c3275065befdaeccf6f2d6aeb61a343\\transformed\\foundation-release\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,142",
-                        "endColumns": "86,87",
-                        "endOffsets": "137,225"
-                    },
-                    "to": {
-                        "startLines": "137,138",
-                        "startColumns": "4,4",
-                        "startOffsets": "13917,14004",
-                        "endColumns": "86,87",
-                        "endOffsets": "13999,14087"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\61a0c98505aa005922e1b0d1b3f65443\\transformed\\ui-release\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,194,278,371,466,549,626,711,797,876,954,1036,1105,1179,1257,1333,1407,1478",
-                        "endColumns": "88,83,92,94,82,76,84,85,78,77,81,68,73,77,75,73,70,118",
-                        "endOffsets": "189,273,366,461,544,621,706,792,871,949,1031,1100,1174,1252,1328,1402,1473,1592"
-                    },
-                    "to": {
-                        "startLines": "38,39,59,60,61,65,66,124,125,126,127,129,130,131,132,134,135,136",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3683,3772,6018,6111,6206,6597,6674,12848,12934,13013,13091,13255,13324,13398,13476,13653,13727,13798",
-                        "endColumns": "88,83,92,94,82,76,84,85,78,77,81,68,73,77,75,73,70,118",
-                        "endOffsets": "3767,3851,6106,6201,6284,6669,6754,12929,13008,13086,13168,13319,13393,13471,13547,13722,13793,13912"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\09fe1e8d9cdbe69a4271c0fa1163a819\\transformed\\credentials-1.2.0-rc01\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,164",
-                        "endColumns": "108,115",
-                        "endOffsets": "159,275"
-                    },
-                    "to": {
-                        "startLines": "29,30",
-                        "startColumns": "4,4",
-                        "startOffsets": "2761,2870",
-                        "endColumns": "108,115",
-                        "endOffsets": "2865,2981"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\7e0d4a17f9a538530506d508b9b5cf98\\transformed\\play-services-base-18.5.0\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\ad1a2b444308fcf32bef6d2afc0aa417\\transformed\\play-services-base-18.5.0\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -123,24 +21,75 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\f7a5af6557b1291df942ca820fc22903\\transformed\\play-services-basement-18.4.0\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\4ad631e50a45a8561870f86a8909697b\\transformed\\appcompat-1.7.0\\res\\values-iw\\values-iw.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "113",
-                        "endOffsets": "308"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,310,418,502,604,720,799,877,968,1062,1156,1250,1350,1443,1538,1631,1722,1814,1895,2000,2103,2201,2306,2408,2510,2664,2761",
+                        "endColumns": "104,99,107,83,101,115,78,77,90,93,93,93,99,92,94,92,90,91,80,104,102,97,104,101,101,153,96,81",
+                        "endOffsets": "205,305,413,497,599,715,794,872,963,1057,1151,1245,1345,1438,1533,1626,1717,1809,1890,1995,2098,2196,2301,2403,2505,2659,2756,2838"
                     },
                     "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "4821",
-                        "endColumns": "117",
-                        "endOffsets": "4934"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,128",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,310,418,502,604,720,799,877,968,1062,1156,1250,1350,1443,1538,1631,1722,1814,1895,2000,2103,2201,2306,2408,2510,2664,13173",
+                        "endColumns": "104,99,107,83,101,115,78,77,90,93,93,93,99,92,94,92,90,91,80,104,102,97,104,101,101,153,96,81",
+                        "endOffsets": "205,305,413,497,599,715,794,872,963,1057,1151,1245,1345,1438,1533,1626,1717,1809,1890,1995,2098,2196,2301,2403,2505,2659,2756,13250"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\0c6c927d37f5001602f5a945023de268\\transformed\\material3-release\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\9e569bbdd6e65850611fe24dc5618f0f\\transformed\\foundation-release\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,142",
+                        "endColumns": "86,87",
+                        "endOffsets": "137,225"
+                    },
+                    "to": {
+                        "startLines": "137,138",
+                        "startColumns": "4,4",
+                        "startOffsets": "13917,14004",
+                        "endColumns": "86,87",
+                        "endOffsets": "13999,14087"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\e21864a814209f16aeeff23158b8fb89\\transformed\\browser-1.4.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,146,246,352",
+                        "endColumns": "90,99,105,101",
+                        "endOffsets": "141,241,347,449"
+                    },
+                    "to": {
+                        "startLines": "58,62,63,64",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5927,6289,6389,6495",
+                        "endColumns": "90,99,105,101",
+                        "endOffsets": "6013,6384,6490,6592"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\e3dd16b966b3d2ead5a70fcb2a4aba5e\\transformed\\ui-release\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,194,278,371,466,549,626,711,797,876,954,1036,1105,1179,1257,1333,1407,1478",
+                        "endColumns": "88,83,92,94,82,76,84,85,78,77,81,68,73,77,75,73,70,118",
+                        "endOffsets": "189,273,366,461,544,621,706,792,871,949,1031,1100,1174,1252,1328,1402,1473,1592"
+                    },
+                    "to": {
+                        "startLines": "38,39,59,60,61,65,66,124,125,126,127,129,130,131,132,134,135,136",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3683,3772,6018,6111,6206,6597,6674,12848,12934,13013,13091,13255,13324,13398,13476,13653,13727,13798",
+                        "endColumns": "88,83,92,94,82,76,84,85,78,77,81,68,73,77,75,73,70,118",
+                        "endOffsets": "3767,3851,6106,6201,6284,6669,6754,12929,13008,13086,13168,13319,13393,13471,13547,13722,13793,13912"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\c57d1203df2d6da95ffa552f5a99dbd5\\transformed\\material3-release\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -154,6 +103,57 @@
                         "startOffsets": "6759,6876,6992,7110,7225,7324,7419,7532,7659,7774,7914,7999,8097,8188,8284,8401,8521,8624,8760,8895,9016,9169,9287,9397,9512,9630,9722,9819,9931,10055,10153,10252,10356,10490,10631,10738,10838,10919,11024,11128,11238,11324,11409,11512,11592,11676,11777,11876,11967,12062,12148,12250,12349,12446,12571,12651,12752",
                         "endColumns": "116,115,117,114,98,94,112,126,114,139,84,97,90,95,116,119,102,135,134,120,152,117,109,114,117,91,96,111,123,97,98,103,133,140,106,99,80,104,103,109,85,84,102,79,83,100,98,90,94,85,101,98,96,124,79,100,95",
                         "endOffsets": "6871,6987,7105,7220,7319,7414,7527,7654,7769,7909,7994,8092,8183,8279,8396,8516,8619,8755,8890,9011,9164,9282,9392,9507,9625,9717,9814,9926,10050,10148,10247,10351,10485,10626,10733,10833,10914,11019,11123,11233,11319,11404,11507,11587,11671,11772,11871,11962,12057,12143,12245,12344,12441,12566,12646,12747,12843"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\8f7e4f6edb072aef7b316b3eb3f160fc\\transformed\\credentials-1.2.0-rc01\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,115",
+                        "endOffsets": "159,275"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2761,2870",
+                        "endColumns": "108,115",
+                        "endOffsets": "2865,2981"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\2d8583ae89ae2541a1792a791498c15e\\transformed\\core-1.13.1\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,445,546,646,752",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "144,246,343,440,541,641,747,848"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "2986,3080,3182,3279,3376,3477,3577,13552",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "3075,3177,3274,3371,3472,3572,3678,13648"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jonat\\.gradle\\caches\\transforms-4\\83bd0d7b52348540fdfa20f3873f7f88\\transformed\\play-services-basement-18.4.0\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "113",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "4821",
+                        "endColumns": "117",
+                        "endOffsets": "4934"
                     }
                 }
             ]
